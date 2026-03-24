@@ -83,6 +83,7 @@ The following enhancements could be done to improve the app:
 | 🔐 **Authentication** | Secure API calls with token-based authentication |
 | 🗂️ **Database Indexing** | Improve query performance by adding indexes to key tables |
 | ⚡ **Caching** | Reduce load and improve response times with a caching layer |
+| 📋 **Logging** | Structured logging to simplify debugging and observability |
 
 ---
 
