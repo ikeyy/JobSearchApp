@@ -1,0 +1,82 @@
+2026-03-23T15:00:25.7476247+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.9.1+cb5afc3bb9bb01ebd75b57f89e8358b914ee2a49
+2026-03-23T15:00:25.7572408+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2026-03-23T15:00:25.7583346+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2026-03-23T15:00:25.7583422+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 15:00:25.728
+2026-03-23T15:00:25.7586864+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 33176
+2026-03-23T15:00:25.7587949+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.24
+2026-03-23T15:00:25.7588065+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Private.CoreLib.dll
+2026-03-23T15:00:25.7588199+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2026-03-23T15:00:25.7588658+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\bin\Debug\net8.0\JobSearchApp.Tests.dll
+2026-03-23T15:00:25.7589515+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\bin\Debug\net8.0\Log --results-directory C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\TestResults --client-port 54747'
+2026-03-23T15:00:25.7600481+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2026-03-23T15:00:25.7706424+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2026-03-23T15:00:25.7795767+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2026-03-23T15:00:25.9198880+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: '30ea7c6e-dd24-4152-a360-1387158cd41d' Version: '3.2.2' DisplayName: 'xUnit.net v3 Microsoft.Testing.Platform test framework' Description: 'xUnit.net v3 Microsoft.Testing.Platform test framework'
+2026-03-23T15:00:25.9255945+00:00 xUnit.net INFORMATION xUnit.net v3 In-Process Runner v3.2.2+728c1dce01 (64-bit .NET 8.0.24)
+2026-03-23T15:00:25.9529223+00:00 xUnit.net INFORMATION   Discovering: JobSearchApp.Tests
+2026-03-23T15:00:26.0070942+00:00 xUnit.net INFORMATION   Discovered:  JobSearchApp.Tests
+2026-03-23T15:00:26.0214969+00:00 xUnit.net INFORMATION   Starting:    JobSearchApp.Tests
+2026-03-23T15:00:26.2101138+00:00 xUnit.net ERROR     JobSearchApp.Tests.Commands.UpdateJobOffer.UpdateJobOfferCommandValidatorTests.Validate_WithMultipleInvalidCalls_ShouldFailForEmptyId [FAIL]
+2026-03-23T15:00:26.2103819+00:00 xUnit.net INFORMATION       FluentValidation.AsyncValidatorInvokedSynchronouslyException : UpdateJobOfferCommandValidator contains asynchronous rules - please use the asynchronous test methods instead.
+2026-03-23T15:00:26.2105949+00:00 xUnit.net INFORMATION       Stack Trace:
+2026-03-23T15:00:26.2108148+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(100,0): at FluentValidation.TestHelper.ValidationTestExtension.TestValidate[T](IValidator`1 validator, ValidationContext`1 context)
+2026-03-23T15:00:26.2108306+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(87,0): at FluentValidation.TestHelper.ValidationTestExtension.TestValidate[T](IValidator`1 validator, T objectToTest, Action`1 options)
+2026-03-23T15:00:26.2108381+00:00 xUnit.net INFORMATION         C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\Commands\UpdateJobOffer\UpdateJobOfferCommandValidator.cs(450,0): at JobSearchApp.Tests.Commands.UpdateJobOffer.UpdateJobOfferCommandValidatorTests.Validate_WithMultipleInvalidCalls_ShouldFailForEmptyId()
+2026-03-23T15:00:26.2108426+00:00 xUnit.net INFORMATION            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+2026-03-23T15:00:26.2108456+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2026-03-23T15:00:26.2112934+00:00 xUnit.net ERROR     JobSearchApp.Tests.Commands.CreateJobOffer.CreateJobOfferCommandValidatorTests.Validate_WithZeroPrice_ShouldFail [FAIL]
+2026-03-23T15:00:26.2113059+00:00 xUnit.net INFORMATION       FluentValidation.AsyncValidatorInvokedSynchronouslyException : CreateJobOfferCommandValidator contains asynchronous rules - please use the asynchronous test methods instead.
+2026-03-23T15:00:26.2113149+00:00 xUnit.net INFORMATION       Stack Trace:
+2026-03-23T15:00:26.2113236+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(100,0): at FluentValidation.TestHelper.ValidationTestExtension.TestValidate[T](IValidator`1 validator, ValidationContext`1 context)
+2026-03-23T15:00:26.2113279+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(87,0): at FluentValidation.TestHelper.ValidationTestExtension.TestValidate[T](IValidator`1 validator, T objectToTest, Action`1 options)
+2026-03-23T15:00:26.2113342+00:00 xUnit.net INFORMATION         C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\Commands\CreateJobOffer\CreateJobOfferCommandValidatorTests.cs(219,0): at JobSearchApp.Tests.Commands.CreateJobOffer.CreateJobOfferCommandValidatorTests.Validate_WithZeroPrice_ShouldFail()
+2026-03-23T15:00:26.2113456+00:00 xUnit.net INFORMATION            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+2026-03-23T15:00:26.2113493+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2026-03-23T15:00:26.2114139+00:00 xUnit.net ERROR     JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithNullJobData_ShouldFail [FAIL]
+2026-03-23T15:00:26.2114228+00:00 xUnit.net INFORMATION       System.NullReferenceException : NullReferenceException occurred when executing rule for x => x.JobData.StartDate. If this property can be null you should add a null check using a When condition
+2026-03-23T15:00:26.2114247+00:00 xUnit.net INFORMATION       ---- System.NullReferenceException : Object reference not set to an instance of an object.
+2026-03-23T15:00:26.2114304+00:00 xUnit.net INFORMATION       Stack Trace:
+2026-03-23T15:00:26.2114377+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/Internal/PropertyRule.cs(118,0): at FluentValidation.Internal.PropertyRule`2.ValidateAsync(ValidationContext`1 context, CancellationToken cancellation)
+2026-03-23T15:00:26.2114411+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/AbstractValidator.cs(164,0): at FluentValidation.AbstractValidator`1.ValidateInternalAsync(ValidationContext`1 context, CancellationToken cancellation)
+2026-03-23T15:00:26.2114445+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/AbstractValidator.cs(137,0): at FluentValidation.AbstractValidator`1.ValidateAsync(ValidationContext`1 context, CancellationToken cancellation)
+2026-03-23T15:00:26.2114478+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(118,0): at FluentValidation.TestHelper.ValidationTestExtension.TestValidateAsync[T](IValidator`1 validator, ValidationContext`1 context, CancellationToken cancellationToken)
+2026-03-23T15:00:26.2114530+00:00 xUnit.net INFORMATION         C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\Commands\UpdateJob\UpdateJobCommandValidatorTests.cs(87,0): at JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithNullJobData_ShouldFail()
+2026-03-23T15:00:26.2114543+00:00 xUnit.net INFORMATION         --- End of stack trace from previous location ---
+2026-03-23T15:00:26.2114549+00:00 xUnit.net INFORMATION         ----- Inner Stack Trace -----
+2026-03-23T15:00:26.2114567+00:00 xUnit.net INFORMATION            at lambda_method3(Closure, UpdateJobCommand)
+2026-03-23T15:00:26.2114595+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/Internal/PropertyRule.cs(43,0): at FluentValidation.Internal.PropertyRule`2.<>c__DisplayClass1_0.<Create>b__0(T x)
+2026-03-23T15:00:26.2114623+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/Internal/PropertyRule.cs(115,0): at FluentValidation.Internal.PropertyRule`2.ValidateAsync(ValidationContext`1 context, CancellationToken cancellation)
+2026-03-23T15:00:26.2118236+00:00 xUnit.net ERROR     JobSearchApp.Tests.Commands.CreateJobOffer.CreateJobOfferCommandValidatorTests.Validate_WithSmallPositivePrice_ShouldPass [FAIL]
+2026-03-23T15:00:26.2118271+00:00 xUnit.net INFORMATION       FluentValidation.AsyncValidatorInvokedSynchronouslyException : CreateJobOfferCommandValidator contains asynchronous rules - please use the asynchronous test methods instead.
+2026-03-23T15:00:26.2118302+00:00 xUnit.net INFORMATION       Stack Trace:
+2026-03-23T15:00:26.2118361+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(100,0): at FluentValidation.TestHelper.ValidationTestExtension.TestValidate[T](IValidator`1 validator, ValidationContext`1 context)
+2026-03-23T15:00:26.2118404+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(87,0): at FluentValidation.TestHelper.ValidationTestExtension.TestValidate[T](IValidator`1 validator, T objectToTest, Action`1 options)
+2026-03-23T15:00:26.2118460+00:00 xUnit.net INFORMATION         C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\Commands\CreateJobOffer\CreateJobOfferCommandValidatorTests.cs(249,0): at JobSearchApp.Tests.Commands.CreateJobOffer.CreateJobOfferCommandValidatorTests.Validate_WithSmallPositivePrice_ShouldPass()
+2026-03-23T15:00:26.2118495+00:00 xUnit.net INFORMATION            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+2026-03-23T15:00:26.2118525+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2026-03-23T15:00:26.2152728+00:00 xUnit.net ERROR     JobSearchApp.Tests.Commands.UpdateJobOffer.UpdateJobOfferCommandValidatorTests.Validate_ShouldNotCallRepositoryForEmptyJobOfferIdAsync [FAIL]
+2026-03-23T15:00:26.2152839+00:00 xUnit.net INFORMATION       Moq.MockException : 
+2026-03-23T15:00:26.2152847+00:00 xUnit.net INFORMATION       Expected invocation on the mock should never have been performed, but was 1 times: x => x.GetJobOfferByIdAsync(It.IsAny<Guid>(), It.IsAny<CancellationToken>(), False)
+2026-03-23T15:00:26.2152889+00:00 xUnit.net INFORMATION       
+2026-03-23T15:00:26.2152894+00:00 xUnit.net INFORMATION       Performed invocations:
+2026-03-23T15:00:26.2152898+00:00 xUnit.net INFORMATION       
+2026-03-23T15:00:26.2152910+00:00 xUnit.net INFORMATION          Mock<IJobOfferRepository:33> (x):
+2026-03-23T15:00:26.2152915+00:00 xUnit.net INFORMATION       
+2026-03-23T15:00:26.2152918+00:00 xUnit.net INFORMATION             IJobOfferRepository.GetJobOfferByIdAsync(00000000-0000-0000-0000-000000000000, CancellationToken, False)
+2026-03-23T15:00:26.2152922+00:00 xUnit.net INFORMATION       
+2026-03-23T15:00:26.2152948+00:00 xUnit.net INFORMATION       Stack Trace:
+2026-03-23T15:00:26.2153011+00:00 xUnit.net INFORMATION         /_/src/Moq/Mock.cs(332,0): at Moq.Mock.Verify(Mock mock, LambdaExpression expression, Times times, String failMessage)
+2026-03-23T15:00:26.2153038+00:00 xUnit.net INFORMATION         /_/src/Moq/Mock`1.cs(840,0): at Moq.Mock`1.Verify[TResult](Expression`1 expression, Func`1 times)
+2026-03-23T15:00:26.2153094+00:00 xUnit.net INFORMATION         C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\Commands\UpdateJobOffer\UpdateJobOfferCommandValidator.cs(475,0): at JobSearchApp.Tests.Commands.UpdateJobOffer.UpdateJobOfferCommandValidatorTests.Validate_ShouldNotCallRepositoryForEmptyJobOfferIdAsync()
+2026-03-23T15:00:26.2153104+00:00 xUnit.net INFORMATION         --- End of stack trace from previous location ---
+2026-03-23T15:00:26.2175931+00:00 xUnit.net ERROR     JobSearchApp.Tests.Commands.CreateJobOffer.CreateJobOfferCommandValidatorTests.Validate_WithMaxDecimalPrice_ShouldPass [FAIL]
+2026-03-23T15:00:26.2176024+00:00 xUnit.net INFORMATION       FluentValidation.AsyncValidatorInvokedSynchronouslyException : CreateJobOfferCommandValidator contains asynchronous rules - please use the asynchronous test methods instead.
+2026-03-23T15:00:26.2176067+00:00 xUnit.net INFORMATION       Stack Trace:
+2026-03-23T15:00:26.2176153+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(100,0): at FluentValidation.TestHelper.ValidationTestExtension.TestValidate[T](IValidator`1 validator, ValidationContext`1 context)
+2026-03-23T15:00:26.2176194+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(87,0): at FluentValidation.TestHelper.ValidationTestExtension.TestValidate[T](IValidator`1 validator, T objectToTest, Action`1 options)
+2026-03-23T15:00:26.2176255+00:00 xUnit.net INFORMATION         C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\Commands\CreateJobOffer\CreateJobOfferCommandValidatorTests.cs(277,0): at JobSearchApp.Tests.Commands.CreateJobOffer.CreateJobOfferCommandValidatorTests.Validate_WithMaxDecimalPrice_ShouldPass()
+2026-03-23T15:00:26.2176291+00:00 xUnit.net INFORMATION            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+2026-03-23T15:00:26.2176320+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2026-03-23T15:00:26.2243335+00:00 xUnit.net INFORMATION   Finished:    JobSearchApp.Tests (ID = '8252e462c5df7fb5694cd8219bb682d28811994079507cdd96b6e8bac1877331')
+2026-03-23T15:00:26.2271269+00:00 xUnit.net INFORMATION === TEST EXECUTION SUMMARY ===
+2026-03-23T15:00:26.2324878+00:00 xUnit.net INFORMATION    JobSearchApp.Tests  Total: 253, Errors: 0, Failed: 6, Skipped: 0, Not Run: 0, Time: 0.205s

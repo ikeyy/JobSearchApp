@@ -1,0 +1,15 @@
+<div class="pagination" *ngIf="totalPages > 1">
+  <span class="pagination-info">
+    {{ (page - 1) * pageSize + 1 }}–{{ Math.min(page * pageSize, total) }} of {{ total }}
+  </span>
+  <button class="btn btn-ghost btn-sm btn-icon" [disabled]="page <= 1" (click)="go(page - 1)">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+  </button>
+  <ng-container *ngFor="let p of pages">
+    <button *ngIf="p !== -1" class="btn btn-sm" [class.btn-primary]="p === page" [class.btn-ghost]="p !== page" (click)="go(p)">{{ p }}</button>
+    <span *ngIf="p === -1" class="pagination-ellipsis">…</span>
+  </ng-container>
+  <button class="btn btn-ghost btn-sm btn-icon" [disabled]="page >= totalPages" (click)="go(page + 1)">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+  </button>
+</div>

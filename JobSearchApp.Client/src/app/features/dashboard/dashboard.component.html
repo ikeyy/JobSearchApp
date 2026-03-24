@@ -1,0 +1,88 @@
+<div class="page">
+  <div class="page-header">
+    <div>
+      <div class="page-title">Dashboard</div>
+      <div class="page-subtitle">Platform overview</div>
+    </div>
+    <div class="timestamp">{{ now | date:'EEE, MMM d, y · HH:mm' }}</div>
+  </div>
+
+  <div class="stat-grid">
+    <div class="stat-card">
+      <div class="stat-label">Total Customers</div>
+      <div class="stat-value">{{ stats.customers | number }}</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Contractors</div>
+      <div class="stat-value">{{ stats.contractors | number }}</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Total Jobs</div>
+      <div class="stat-value">{{ stats.jobs | number }}</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Open Jobs</div>
+      <div class="stat-value accent">{{ stats.openJobs | number }}</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Accepted Jobs</div>
+      <div class="stat-value success">{{ stats.acceptedJobs | number }}</div>
+    </div>
+  </div>
+
+  <div class="dashboard-grid">
+
+    <!-- Recent Jobs -->
+    <div class="card">
+      <div class="card-header">
+        <h3>Recent Jobs</h3>
+        <a routerLink="/jobs" class="btn btn-ghost btn-sm">View All</a>
+      </div>
+      <div *ngIf="loadingJobs" class="loading-center"><span class="spinner"></span></div>
+      <div *ngIf="!loadingJobs && recentJobs.length === 0" class="text-muted text-sm">No jobs yet</div>
+      <div *ngFor="let j of recentJobs" class="job-row">
+        <div class="job-info">
+          <div class="job-description">{{ j.description }}</div>
+          <div class="job-due">Due {{ j.dueDate | date:'MMM d' }}</div>
+        </div>
+        <div class="job-meta">
+          <span class="job-budget">{{ j.budget | currency:'USD':'symbol':'1.0-0' }}</span>
+          <span class="badge" [ngClass]="'badge-' + (j.status.toLowerCase() || 'unknown')">{{ j.status }}</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Actions -->
+    <div class="card">
+      <h3>Quick Actions</h3>
+      <div class="quick-actions">
+        <a routerLink="/jobs" [queryParams]="{action:'create'}" class="btn btn-ghost">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>
+          Post a New Job
+        </a>
+        <a routerLink="/customers" class="btn btn-ghost">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          Add Customer
+        </a>
+        <a routerLink="/contractors" class="btn btn-ghost">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          Register Contractor
+        </a>
+        <a routerLink="/job-offers" class="btn btn-ghost">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          Submit Job Offer
+        </a>
+        <a routerLink="/jobs" [queryParams]="{status:'Open'}" class="btn btn-ghost">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          Browse Open Jobs
+        </a>
+      </div>
+
+      <div class="divider"></div>
+      <div class="api-info">
+        <div>API Base: <span>{{ apiUrl }}</span></div>
+      </div>
+    </div>
+
+  </div>
+</div>

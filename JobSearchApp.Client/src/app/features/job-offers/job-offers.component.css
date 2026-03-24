@@ -1,0 +1,52 @@
+/* ── Lookup Card ── */
+.lookup-card {
+  margin-bottom: 20px;
+  background: var(--bg-2);
+  border-color: var(--border);
+}
+
+.lookup-title {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  margin-bottom: 12px;
+}
+
+.lookup-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.lookup-group {
+  display: flex;
+  gap: 8px;
+  flex: 1;
+  min-width: 280px;
+}
+
+.lookup-group .form-control {
+  flex: 1;
+}
+
+.lookup-result {
+  margin-top: 10px;
+  font-size: 0.78rem;
+  color: var(--accent);
+  font-family: var(--mono);
+  font-weight: 500;
+}
+
+/* ── Table: Loading Cell ── */
+.loading-cell {
+  text-align: center;
+  padding: 48px;
+}
+
+/* ── Table: Price Cell ── */
+.offer-price {
+  color: var(--accent);
+  font-weight: 500;
+}

@@ -1,0 +1,21 @@
+2026-03-23T13:12:16.7676667+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.9.1+cb5afc3bb9bb01ebd75b57f89e8358b914ee2a49
+2026-03-23T13:12:16.7790535+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2026-03-23T13:12:16.7802523+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2026-03-23T13:12:16.7802570+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 13:12:16.744
+2026-03-23T13:12:16.7806145+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 24464
+2026-03-23T13:12:16.7807263+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.24
+2026-03-23T13:12:16.7807375+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Private.CoreLib.dll
+2026-03-23T13:12:16.7807521+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2026-03-23T13:12:16.7808124+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\bin\Debug\net8.0\JobSearchApp.Tests.dll
+2026-03-23T13:12:16.7809179+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\bin\Debug\net8.0\Log --results-directory C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\TestResults --client-port 64898'
+2026-03-23T13:12:16.7821629+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2026-03-23T13:12:16.7942249+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2026-03-23T13:12:16.8047573+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2026-03-23T13:12:16.9773172+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: '30ea7c6e-dd24-4152-a360-1387158cd41d' Version: '3.2.2' DisplayName: 'xUnit.net v3 Microsoft.Testing.Platform test framework' Description: 'xUnit.net v3 Microsoft.Testing.Platform test framework'
+2026-03-23T13:12:16.9842615+00:00 xUnit.net INFORMATION xUnit.net v3 In-Process Runner v3.2.2+728c1dce01 (64-bit .NET 8.0.24)
+2026-03-23T13:12:17.0228261+00:00 xUnit.net INFORMATION   Discovering: JobSearchApp.Tests
+2026-03-23T13:12:17.0671755+00:00 xUnit.net INFORMATION   Discovered:  JobSearchApp.Tests
+2026-03-23T13:12:17.0855671+00:00 xUnit.net INFORMATION   Starting:    JobSearchApp.Tests
+2026-03-23T13:12:18.6129554+00:00 xUnit.net INFORMATION   Finished:    JobSearchApp.Tests (ID = '8252e462c5df7fb5694cd8219bb682d28811994079507cdd96b6e8bac1877331')
+2026-03-23T13:12:18.6158551+00:00 xUnit.net INFORMATION === TEST EXECUTION SUMMARY ===
+2026-03-23T13:12:18.6220613+00:00 xUnit.net INFORMATION    JobSearchApp.Tests  Total: 11, Errors: 0, Failed: 0, Skipped: 0, Not Run: 0, Time: 1.532s

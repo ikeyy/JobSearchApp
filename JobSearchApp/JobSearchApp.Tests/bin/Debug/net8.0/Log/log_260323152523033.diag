@@ -1,0 +1,124 @@
+2026-03-23T15:25:23.0382293+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.9.1+cb5afc3bb9bb01ebd75b57f89e8358b914ee2a49
+2026-03-23T15:25:23.0477079+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2026-03-23T15:25:23.0487155+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2026-03-23T15:25:23.0487199+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 15:25:23.018
+2026-03-23T15:25:23.0490356+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 6384
+2026-03-23T15:25:23.0491271+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.24
+2026-03-23T15:25:23.0491419+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Private.CoreLib.dll
+2026-03-23T15:25:23.0491511+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2026-03-23T15:25:23.0491931+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\bin\Debug\net8.0\JobSearchApp.Tests.dll
+2026-03-23T15:25:23.0492719+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\bin\Debug\net8.0\Log --results-directory C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\TestResults --client-port 60427'
+2026-03-23T15:25:23.0503232+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2026-03-23T15:25:23.0605675+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2026-03-23T15:25:23.0690406+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2026-03-23T15:25:23.2026502+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: '30ea7c6e-dd24-4152-a360-1387158cd41d' Version: '3.2.2' DisplayName: 'xUnit.net v3 Microsoft.Testing.Platform test framework' Description: 'xUnit.net v3 Microsoft.Testing.Platform test framework'
+2026-03-23T15:25:23.2081575+00:00 xUnit.net INFORMATION xUnit.net v3 In-Process Runner v3.2.2+728c1dce01 (64-bit .NET 8.0.24)
+2026-03-23T15:25:23.2346688+00:00 xUnit.net INFORMATION   Discovering: JobSearchApp.Tests
+2026-03-23T15:25:23.2875326+00:00 xUnit.net INFORMATION   Discovered:  JobSearchApp.Tests
+2026-03-23T15:25:23.3025750+00:00 xUnit.net INFORMATION   Starting:    JobSearchApp.Tests
+2026-03-23T15:25:23.4213920+00:00 xUnit.net ERROR     JobSearchApp.Tests.Commands.UpdateJobOffer.UpdateJobOfferCommandValidatorTests.Validate_ShouldNotCallRepositoryForEmptyJobOfferIdAsync [FAIL]
+2026-03-23T15:25:23.4217429+00:00 xUnit.net INFORMATION       Moq.MockException : 
+2026-03-23T15:25:23.4217541+00:00 xUnit.net INFORMATION       Expected invocation on the mock should never have been performed, but was 1 times: x => x.GetJobOfferByIdAsync(It.IsAny<Guid>(), It.IsAny<CancellationToken>(), False)
+2026-03-23T15:25:23.4217556+00:00 xUnit.net INFORMATION       
+2026-03-23T15:25:23.4217561+00:00 xUnit.net INFORMATION       Performed invocations:
+2026-03-23T15:25:23.4217564+00:00 xUnit.net INFORMATION       
+2026-03-23T15:25:23.4217568+00:00 xUnit.net INFORMATION          Mock<IJobOfferRepository:1> (x):
+2026-03-23T15:25:23.4217572+00:00 xUnit.net INFORMATION       
+2026-03-23T15:25:23.4217576+00:00 xUnit.net INFORMATION             IJobOfferRepository.GetJobOfferByIdAsync(00000000-0000-0000-0000-000000000000, CancellationToken, False)
+2026-03-23T15:25:23.4217580+00:00 xUnit.net INFORMATION       
+2026-03-23T15:25:23.4219976+00:00 xUnit.net INFORMATION       Stack Trace:
+2026-03-23T15:25:23.4222084+00:00 xUnit.net INFORMATION         /_/src/Moq/Mock.cs(332,0): at Moq.Mock.Verify(Mock mock, LambdaExpression expression, Times times, String failMessage)
+2026-03-23T15:25:23.4222214+00:00 xUnit.net INFORMATION         /_/src/Moq/Mock`1.cs(840,0): at Moq.Mock`1.Verify[TResult](Expression`1 expression, Func`1 times)
+2026-03-23T15:25:23.4222318+00:00 xUnit.net INFORMATION         C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\Commands\UpdateJobOffer\UpdateJobOfferCommandValidatorTests.cs(475,0): at JobSearchApp.Tests.Commands.UpdateJobOffer.UpdateJobOfferCommandValidatorTests.Validate_ShouldNotCallRepositoryForEmptyJobOfferIdAsync()
+2026-03-23T15:25:23.4222408+00:00 xUnit.net INFORMATION         --- End of stack trace from previous location ---
+2026-03-23T15:25:23.4230045+00:00 xUnit.net ERROR     JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithNullStatus_ShouldFail [FAIL]
+2026-03-23T15:25:23.4230196+00:00 xUnit.net INFORMATION       FluentValidation.TestHelper.ValidationTestException : Expected an error message of 'Status is required'. Actual message was ''Status' must not be empty.'
+2026-03-23T15:25:23.4230315+00:00 xUnit.net INFORMATION       Stack Trace:
+2026-03-23T15:25:23.4230439+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(149,0): at FluentValidation.TestHelper.ValidationTestExtension.When(ITestValidationContinuation failures, Func`2 failurePredicate, String exceptionMessage)
+2026-03-23T15:25:23.4230482+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(184,0): at FluentValidation.TestHelper.ValidationTestExtension.WithErrorMessage(ITestValidationContinuation failures, String expectedErrorMessage)
+2026-03-23T15:25:23.4230556+00:00 xUnit.net INFORMATION         C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\Commands\UpdateJob\UpdateJobCommandValidatorTests.cs(478,0): at JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithNullStatus_ShouldFail()
+2026-03-23T15:25:23.4230599+00:00 xUnit.net INFORMATION            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+2026-03-23T15:25:23.4230630+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2026-03-23T15:25:23.4258961+00:00 xUnit.net ERROR     JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithEmptyStatus_ShouldFail [FAIL]
+2026-03-23T15:25:23.4259085+00:00 xUnit.net INFORMATION       FluentValidation.TestHelper.ValidationTestException : Expected an error message of 'Status is required'. Actual message was ''Status' must not be empty.'
+2026-03-23T15:25:23.4259113+00:00 xUnit.net INFORMATION       Stack Trace:
+2026-03-23T15:25:23.4259229+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(149,0): at FluentValidation.TestHelper.ValidationTestExtension.When(ITestValidationContinuation failures, Func`2 failurePredicate, String exceptionMessage)
+2026-03-23T15:25:23.4259270+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(184,0): at FluentValidation.TestHelper.ValidationTestExtension.WithErrorMessage(ITestValidationContinuation failures, String expectedErrorMessage)
+2026-03-23T15:25:23.4259374+00:00 xUnit.net INFORMATION         C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\Commands\UpdateJob\UpdateJobCommandValidatorTests.cs(463,0): at JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithEmptyStatus_ShouldFail()
+2026-03-23T15:25:23.4259411+00:00 xUnit.net INFORMATION            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+2026-03-23T15:25:23.4259440+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2026-03-23T15:25:23.4272059+00:00 xUnit.net ERROR     JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithEmptyDueDate_ShouldFail [FAIL]
+2026-03-23T15:25:23.4272165+00:00 xUnit.net INFORMATION       FluentValidation.TestHelper.ValidationTestException : Expected an error message of 'Due date is required'. Actual message was ''Due Date' must not be empty.'
+2026-03-23T15:25:23.4272239+00:00 xUnit.net INFORMATION       Stack Trace:
+2026-03-23T15:25:23.4272315+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(149,0): at FluentValidation.TestHelper.ValidationTestExtension.When(ITestValidationContinuation failures, Func`2 failurePredicate, String exceptionMessage)
+2026-03-23T15:25:23.4272381+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(184,0): at FluentValidation.TestHelper.ValidationTestExtension.WithErrorMessage(ITestValidationContinuation failures, String expectedErrorMessage)
+2026-03-23T15:25:23.4272435+00:00 xUnit.net INFORMATION         C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\Commands\UpdateJob\UpdateJobCommandValidatorTests.cs(198,0): at JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithEmptyDueDate_ShouldFail()
+2026-03-23T15:25:23.4272471+00:00 xUnit.net INFORMATION            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+2026-03-23T15:25:23.4272500+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2026-03-23T15:25:23.4281699+00:00 xUnit.net ERROR     JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithInvalidStatus_ShouldFail(status: "open") [FAIL]
+2026-03-23T15:25:23.4281845+00:00 xUnit.net INFORMATION       FluentValidation.TestHelper.ValidationTestException : Expected an error message of 'Status must be one of: Open, Offered, Accepted, Completed, Cancelled'. Actual message was 'Invalid status'
+2026-03-23T15:25:23.4281890+00:00 xUnit.net INFORMATION       Stack Trace:
+2026-03-23T15:25:23.4281999+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(149,0): at FluentValidation.TestHelper.ValidationTestExtension.When(ITestValidationContinuation failures, Func`2 failurePredicate, String exceptionMessage)
+2026-03-23T15:25:23.4282041+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(184,0): at FluentValidation.TestHelper.ValidationTestExtension.WithErrorMessage(ITestValidationContinuation failures, String expectedErrorMessage)
+2026-03-23T15:25:23.4282120+00:00 xUnit.net INFORMATION         C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\Commands\UpdateJob\UpdateJobCommandValidatorTests.cs(517,0): at JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithInvalidStatus_ShouldFail(String status)
+2026-03-23T15:25:23.4282190+00:00 xUnit.net INFORMATION            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+2026-03-23T15:25:23.4282227+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+2026-03-23T15:25:23.4287523+00:00 xUnit.net ERROR     JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithInvalidStatus_ShouldFail(status: "Pending") [FAIL]
+2026-03-23T15:25:23.4287604+00:00 xUnit.net INFORMATION       FluentValidation.TestHelper.ValidationTestException : Expected an error message of 'Status must be one of: Open, Offered, Accepted, Completed, Cancelled'. Actual message was 'Invalid status'
+2026-03-23T15:25:23.4287669+00:00 xUnit.net INFORMATION       Stack Trace:
+2026-03-23T15:25:23.4287767+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(149,0): at FluentValidation.TestHelper.ValidationTestExtension.When(ITestValidationContinuation failures, Func`2 failurePredicate, String exceptionMessage)
+2026-03-23T15:25:23.4287807+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(184,0): at FluentValidation.TestHelper.ValidationTestExtension.WithErrorMessage(ITestValidationContinuation failures, String expectedErrorMessage)
+2026-03-23T15:25:23.4287860+00:00 xUnit.net INFORMATION         C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\Commands\UpdateJob\UpdateJobCommandValidatorTests.cs(517,0): at JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithInvalidStatus_ShouldFail(String status)
+2026-03-23T15:25:23.4287911+00:00 xUnit.net INFORMATION            at InvokeStub_UpdateJobCommandValidatorTests.Validate_WithInvalidStatus_ShouldFail(Object, Span`1)
+2026-03-23T15:25:23.4287954+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+2026-03-23T15:25:23.4290256+00:00 xUnit.net ERROR     JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithInvalidStatus_ShouldFail(status: "Invalid") [FAIL]
+2026-03-23T15:25:23.4290362+00:00 xUnit.net INFORMATION       FluentValidation.TestHelper.ValidationTestException : Expected an error message of 'Status must be one of: Open, Offered, Accepted, Completed, Cancelled'. Actual message was 'Invalid status'
+2026-03-23T15:25:23.4290435+00:00 xUnit.net INFORMATION       Stack Trace:
+2026-03-23T15:25:23.4290544+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(149,0): at FluentValidation.TestHelper.ValidationTestExtension.When(ITestValidationContinuation failures, Func`2 failurePredicate, String exceptionMessage)
+2026-03-23T15:25:23.4290585+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(184,0): at FluentValidation.TestHelper.ValidationTestExtension.WithErrorMessage(ITestValidationContinuation failures, String expectedErrorMessage)
+2026-03-23T15:25:23.4290640+00:00 xUnit.net INFORMATION         C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\Commands\UpdateJob\UpdateJobCommandValidatorTests.cs(517,0): at JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithInvalidStatus_ShouldFail(String status)
+2026-03-23T15:25:23.4290695+00:00 xUnit.net INFORMATION            at InvokeStub_UpdateJobCommandValidatorTests.Validate_WithInvalidStatus_ShouldFail(Object, Span`1)
+2026-03-23T15:25:23.4290737+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+2026-03-23T15:25:23.4292675+00:00 xUnit.net ERROR     JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithInvalidStatus_ShouldFail(status: "OPEN") [FAIL]
+2026-03-23T15:25:23.4292751+00:00 xUnit.net INFORMATION       FluentValidation.TestHelper.ValidationTestException : Expected an error message of 'Status must be one of: Open, Offered, Accepted, Completed, Cancelled'. Actual message was 'Invalid status'
+2026-03-23T15:25:23.4292815+00:00 xUnit.net INFORMATION       Stack Trace:
+2026-03-23T15:25:23.4292913+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(149,0): at FluentValidation.TestHelper.ValidationTestExtension.When(ITestValidationContinuation failures, Func`2 failurePredicate, String exceptionMessage)
+2026-03-23T15:25:23.4292951+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(184,0): at FluentValidation.TestHelper.ValidationTestExtension.WithErrorMessage(ITestValidationContinuation failures, String expectedErrorMessage)
+2026-03-23T15:25:23.4293005+00:00 xUnit.net INFORMATION         C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\Commands\UpdateJob\UpdateJobCommandValidatorTests.cs(517,0): at JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithInvalidStatus_ShouldFail(String status)
+2026-03-23T15:25:23.4293062+00:00 xUnit.net INFORMATION            at InvokeStub_UpdateJobCommandValidatorTests.Validate_WithInvalidStatus_ShouldFail(Object, Span`1)
+2026-03-23T15:25:23.4293104+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+2026-03-23T15:25:23.4295214+00:00 xUnit.net ERROR     JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithInvalidStatus_ShouldFail(status: "InProgress") [FAIL]
+2026-03-23T15:25:23.4295302+00:00 xUnit.net INFORMATION       FluentValidation.TestHelper.ValidationTestException : Expected an error message of 'Status must be one of: Open, Offered, Accepted, Completed, Cancelled'. Actual message was 'Invalid status'
+2026-03-23T15:25:23.4295374+00:00 xUnit.net INFORMATION       Stack Trace:
+2026-03-23T15:25:23.4295450+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(149,0): at FluentValidation.TestHelper.ValidationTestExtension.When(ITestValidationContinuation failures, Func`2 failurePredicate, String exceptionMessage)
+2026-03-23T15:25:23.4295516+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(184,0): at FluentValidation.TestHelper.ValidationTestExtension.WithErrorMessage(ITestValidationContinuation failures, String expectedErrorMessage)
+2026-03-23T15:25:23.4295569+00:00 xUnit.net INFORMATION         C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\Commands\UpdateJob\UpdateJobCommandValidatorTests.cs(517,0): at JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithInvalidStatus_ShouldFail(String status)
+2026-03-23T15:25:23.4295600+00:00 xUnit.net INFORMATION            at InvokeStub_UpdateJobCommandValidatorTests.Validate_WithInvalidStatus_ShouldFail(Object, Span`1)
+2026-03-23T15:25:23.4295643+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+2026-03-23T15:25:23.4300782+00:00 xUnit.net ERROR     JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithEmptyDescription_ShouldFail [FAIL]
+2026-03-23T15:25:23.4300846+00:00 xUnit.net INFORMATION       FluentValidation.TestHelper.ValidationTestException : Expected an error message of 'Description is required'. Actual message was ''Description' must not be empty.'
+2026-03-23T15:25:23.4300910+00:00 xUnit.net INFORMATION       Stack Trace:
+2026-03-23T15:25:23.4301010+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(149,0): at FluentValidation.TestHelper.ValidationTestExtension.When(ITestValidationContinuation failures, Func`2 failurePredicate, String exceptionMessage)
+2026-03-23T15:25:23.4301049+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(184,0): at FluentValidation.TestHelper.ValidationTestExtension.WithErrorMessage(ITestValidationContinuation failures, String expectedErrorMessage)
+2026-03-23T15:25:23.4301126+00:00 xUnit.net INFORMATION         C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\Commands\UpdateJob\UpdateJobCommandValidatorTests.cs(357,0): at JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithEmptyDescription_ShouldFail()
+2026-03-23T15:25:23.4301163+00:00 xUnit.net INFORMATION            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+2026-03-23T15:25:23.4301192+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2026-03-23T15:25:23.4306140+00:00 xUnit.net ERROR     JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithEmptyStartDate_ShouldFail [FAIL]
+2026-03-23T15:25:23.4306230+00:00 xUnit.net INFORMATION       FluentValidation.TestHelper.ValidationTestException : Expected an error message of 'Start date is required'. Actual message was ''Start Date' must not be empty.'
+2026-03-23T15:25:23.4306283+00:00 xUnit.net INFORMATION       Stack Trace:
+2026-03-23T15:25:23.4306349+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(149,0): at FluentValidation.TestHelper.ValidationTestExtension.When(ITestValidationContinuation failures, Func`2 failurePredicate, String exceptionMessage)
+2026-03-23T15:25:23.4306388+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(184,0): at FluentValidation.TestHelper.ValidationTestExtension.WithErrorMessage(ITestValidationContinuation failures, String expectedErrorMessage)
+2026-03-23T15:25:23.4306472+00:00 xUnit.net INFORMATION         C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\Commands\UpdateJob\UpdateJobCommandValidatorTests.cs(122,0): at JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithEmptyStartDate_ShouldFail()
+2026-03-23T15:25:23.4306507+00:00 xUnit.net INFORMATION            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+2026-03-23T15:25:23.4306537+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2026-03-23T15:25:23.4311126+00:00 xUnit.net ERROR     JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithNullDescription_ShouldFail [FAIL]
+2026-03-23T15:25:23.4311186+00:00 xUnit.net INFORMATION       FluentValidation.TestHelper.ValidationTestException : Expected an error message of 'Description is required'. Actual message was ''Description' must not be empty.'
+2026-03-23T15:25:23.4311242+00:00 xUnit.net INFORMATION       Stack Trace:
+2026-03-23T15:25:23.4311301+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(149,0): at FluentValidation.TestHelper.ValidationTestExtension.When(ITestValidationContinuation failures, Func`2 failurePredicate, String exceptionMessage)
+2026-03-23T15:25:23.4311355+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(184,0): at FluentValidation.TestHelper.ValidationTestExtension.WithErrorMessage(ITestValidationContinuation failures, String expectedErrorMessage)
+2026-03-23T15:25:23.4311735+00:00 xUnit.net INFORMATION         C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\Commands\UpdateJob\UpdateJobCommandValidatorTests.cs(372,0): at JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithNullDescription_ShouldFail()
+2026-03-23T15:25:23.4311792+00:00 xUnit.net INFORMATION            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+2026-03-23T15:25:23.4311821+00:00 xUnit.net INFORMATION            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2026-03-23T15:25:23.4346860+00:00 xUnit.net INFORMATION   Finished:    JobSearchApp.Tests (ID = '8252e462c5df7fb5694cd8219bb682d28811994079507cdd96b6e8bac1877331')
+2026-03-23T15:25:23.4371609+00:00 xUnit.net INFORMATION === TEST EXECUTION SUMMARY ===
+2026-03-23T15:25:23.4421588+00:00 xUnit.net INFORMATION    JobSearchApp.Tests  Total: 12, Errors: 0, Failed: 12, Skipped: 0, Not Run: 0, Time: 0.135s

@@ -1,0 +1,50 @@
+2026-03-23T15:02:13.6538180+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.9.1+cb5afc3bb9bb01ebd75b57f89e8358b914ee2a49
+2026-03-23T15:02:13.6641086+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2026-03-23T15:02:13.6651016+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2026-03-23T15:02:13.6651053+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 15:02:13.634
+2026-03-23T15:02:13.6654176+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 31612
+2026-03-23T15:02:13.6655089+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.24
+2026-03-23T15:02:13.6655185+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.24\System.Private.CoreLib.dll
+2026-03-23T15:02:13.6655318+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2026-03-23T15:02:13.6655769+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\bin\Debug\net8.0\JobSearchApp.Tests.dll
+2026-03-23T15:02:13.6656653+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\bin\Debug\net8.0\Log --results-directory C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\TestResults --client-port 50475'
+2026-03-23T15:02:13.6668017+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2026-03-23T15:02:13.6763410+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2026-03-23T15:02:13.6846177+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2026-03-23T15:02:13.8233477+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: '30ea7c6e-dd24-4152-a360-1387158cd41d' Version: '3.2.2' DisplayName: 'xUnit.net v3 Microsoft.Testing.Platform test framework' Description: 'xUnit.net v3 Microsoft.Testing.Platform test framework'
+2026-03-23T15:02:13.8290094+00:00 xUnit.net INFORMATION xUnit.net v3 In-Process Runner v3.2.2+728c1dce01 (64-bit .NET 8.0.24)
+2026-03-23T15:02:13.8566373+00:00 xUnit.net INFORMATION   Discovering: JobSearchApp.Tests
+2026-03-23T15:02:13.9284107+00:00 xUnit.net INFORMATION   Discovered:  JobSearchApp.Tests
+2026-03-23T15:02:13.9561774+00:00 xUnit.net INFORMATION   Starting:    JobSearchApp.Tests
+2026-03-23T15:02:14.0951201+00:00 xUnit.net ERROR     JobSearchApp.Tests.Commands.UpdateJobOffer.UpdateJobOfferCommandValidatorTests.Validate_ShouldNotCallRepositoryForEmptyJobOfferIdAsync [FAIL]
+2026-03-23T15:02:14.0953799+00:00 xUnit.net INFORMATION       Moq.MockException : 
+2026-03-23T15:02:14.0953870+00:00 xUnit.net INFORMATION       Expected invocation on the mock should never have been performed, but was 1 times: x => x.GetJobOfferByIdAsync(It.IsAny<Guid>(), It.IsAny<CancellationToken>(), False)
+2026-03-23T15:02:14.0953878+00:00 xUnit.net INFORMATION       
+2026-03-23T15:02:14.0953883+00:00 xUnit.net INFORMATION       Performed invocations:
+2026-03-23T15:02:14.0953887+00:00 xUnit.net INFORMATION       
+2026-03-23T15:02:14.0953891+00:00 xUnit.net INFORMATION          Mock<IJobOfferRepository:1> (x):
+2026-03-23T15:02:14.0953895+00:00 xUnit.net INFORMATION       
+2026-03-23T15:02:14.0953899+00:00 xUnit.net INFORMATION             IJobOfferRepository.GetJobOfferByIdAsync(00000000-0000-0000-0000-000000000000, CancellationToken, False)
+2026-03-23T15:02:14.0953903+00:00 xUnit.net INFORMATION       
+2026-03-23T15:02:14.0956560+00:00 xUnit.net INFORMATION       Stack Trace:
+2026-03-23T15:02:14.0958843+00:00 xUnit.net INFORMATION         /_/src/Moq/Mock.cs(332,0): at Moq.Mock.Verify(Mock mock, LambdaExpression expression, Times times, String failMessage)
+2026-03-23T15:02:14.0958915+00:00 xUnit.net INFORMATION         /_/src/Moq/Mock`1.cs(840,0): at Moq.Mock`1.Verify[TResult](Expression`1 expression, Func`1 times)
+2026-03-23T15:02:14.0959004+00:00 xUnit.net INFORMATION         C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\Commands\UpdateJobOffer\UpdateJobOfferCommandValidator.cs(475,0): at JobSearchApp.Tests.Commands.UpdateJobOffer.UpdateJobOfferCommandValidatorTests.Validate_ShouldNotCallRepositoryForEmptyJobOfferIdAsync()
+2026-03-23T15:02:14.0959089+00:00 xUnit.net INFORMATION         --- End of stack trace from previous location ---
+2026-03-23T15:02:14.0964080+00:00 xUnit.net ERROR     JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithNullJobData_ShouldFail [FAIL]
+2026-03-23T15:02:14.0964253+00:00 xUnit.net INFORMATION       System.NullReferenceException : NullReferenceException occurred when executing rule for x => x.JobData.StartDate. If this property can be null you should add a null check using a When condition
+2026-03-23T15:02:14.0964270+00:00 xUnit.net INFORMATION       ---- System.NullReferenceException : Object reference not set to an instance of an object.
+2026-03-23T15:02:14.0964498+00:00 xUnit.net INFORMATION       Stack Trace:
+2026-03-23T15:02:14.0964581+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/Internal/PropertyRule.cs(118,0): at FluentValidation.Internal.PropertyRule`2.ValidateAsync(ValidationContext`1 context, CancellationToken cancellation)
+2026-03-23T15:02:14.0964668+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/AbstractValidator.cs(164,0): at FluentValidation.AbstractValidator`1.ValidateInternalAsync(ValidationContext`1 context, CancellationToken cancellation)
+2026-03-23T15:02:14.0964699+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/AbstractValidator.cs(137,0): at FluentValidation.AbstractValidator`1.ValidateAsync(ValidationContext`1 context, CancellationToken cancellation)
+2026-03-23T15:02:14.0964734+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/TestHelper/ValidatorTestExtensions.cs(118,0): at FluentValidation.TestHelper.ValidationTestExtension.TestValidateAsync[T](IValidator`1 validator, ValidationContext`1 context, CancellationToken cancellationToken)
+2026-03-23T15:02:14.0964852+00:00 xUnit.net INFORMATION         C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Tests\Commands\UpdateJob\UpdateJobCommandValidatorTests.cs(87,0): at JobSearchApp.Tests.Commands.UpdateJob.UpdateJobCommandValidatorTests.Validate_WithNullJobData_ShouldFail()
+2026-03-23T15:02:14.0964860+00:00 xUnit.net INFORMATION         --- End of stack trace from previous location ---
+2026-03-23T15:02:14.0964866+00:00 xUnit.net INFORMATION         ----- Inner Stack Trace -----
+2026-03-23T15:02:14.0964883+00:00 xUnit.net INFORMATION            at lambda_method3(Closure, UpdateJobCommand)
+2026-03-23T15:02:14.0964913+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/Internal/PropertyRule.cs(43,0): at FluentValidation.Internal.PropertyRule`2.<>c__DisplayClass1_0.<Create>b__0(T x)
+2026-03-23T15:02:14.0964943+00:00 xUnit.net INFORMATION         /_/src/FluentValidation/Internal/PropertyRule.cs(115,0): at FluentValidation.Internal.PropertyRule`2.ValidateAsync(ValidationContext`1 context, CancellationToken cancellation)
+2026-03-23T15:02:14.1037822+00:00 xUnit.net INFORMATION   Finished:    JobSearchApp.Tests (ID = '8252e462c5df7fb5694cd8219bb682d28811994079507cdd96b6e8bac1877331')
+2026-03-23T15:02:14.1064003+00:00 xUnit.net INFORMATION === TEST EXECUTION SUMMARY ===
+2026-03-23T15:02:14.1120154+00:00 xUnit.net INFORMATION    JobSearchApp.Tests  Total: 5, Errors: 0, Failed: 2, Skipped: 0, Not Run: 0, Time: 0.155s

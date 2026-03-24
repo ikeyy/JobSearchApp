@@ -1,0 +1,5 @@
+/* ── Table: Business Name Cell ── */
+.business-name {
+  font-weight: 500;
+  color: var(--black);
+}

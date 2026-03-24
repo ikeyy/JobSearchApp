@@ -1,0 +1,88 @@
+/* ── Toolbar / Filters ── */
+.filters-toolbar {
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.filters-toolbar .search-bar {
+  flex: 1;
+  min-width: 240px;
+}
+
+.status-filter {
+  width: 140px;
+}
+
+.budget-range {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.budget-range .form-control {
+  width: 110px;
+}
+
+.budget-separator {
+  color: var(--text-dim);
+  font-size: 0.82rem;
+}
+
+/* ── Table: Description Cell ── */
+.description-cell {
+  max-width: 260px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--black);
+  font-weight: 500;
+}
+
+/* ── Table: Budget Cell ── */
+.budget-value {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+/* ── Table: Empty accepted-by cell ── */
+.empty-value {
+  color: var(--text-dim);
+}
+
+/* ── Offers Modal ── */
+.modal-wide {
+  max-width: 680px;
+}
+
+.modal-job {
+  max-width: 640px;
+}
+
+.offers-job-context {
+  padding: 14px 24px;
+  background: var(--bg-3);
+  border-bottom: 1px solid var(--border);
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.offers-loading {
+  padding: 40px;
+  text-align: center;
+}
+
+.offers-empty {
+  padding: 40px;
+}
+
+.offers-table {
+  width: 100%;
+}
+
+/* ── Offers Table: Price Cell ── */
+.offer-price {
+  color: var(--accent);
+  font-weight: 500;
+}

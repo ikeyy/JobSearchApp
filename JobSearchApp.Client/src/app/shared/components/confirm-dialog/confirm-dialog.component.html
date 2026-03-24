@@ -1,0 +1,14 @@
+<div class="modal-overlay" (click)="onCancel()">
+      <div class="modal" style="max-width:400px" (click)="$event.stopPropagation()">
+        <div class="modal-header">
+          <span class="modal-title">{{ title }}</span>
+        </div>
+        <div class="modal-body">
+          <p style="color: var(--text-muted); font-size: 0.875rem;">{{ message }}</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-ghost" (click)="onCancel()">Cancel</button>
+          <button class="btn btn-danger" (click)="onConfirm()">{{ confirmLabel }}</button>
+        </div>
+      </div>
+    </div>

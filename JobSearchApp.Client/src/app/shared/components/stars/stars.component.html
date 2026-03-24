@@ -1,0 +1,4 @@
+<div class="stars">
+      <span *ngFor="let s of stars" class="star" [class.filled]="s <= rating">★</span>
+      <span style="color: var(--text-muted); font-size: 0.75rem; margin-left: 4px; font-family: var(--mono)">{{ rating.toFixed(1) }}</span>
+    </div>

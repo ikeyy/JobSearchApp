@@ -1,0 +1,11 @@
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Domain\bin\Debug\net8.0\JobSearchApp.Domain.deps.json
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Domain\bin\Debug\net8.0\JobSearchApp.Domain.dll
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Domain\bin\Debug\net8.0\JobSearchApp.Domain.pdb
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Domain\obj\Debug\net8.0\JobSearchApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Domain\obj\Debug\net8.0\JobSearchApp.Domain.AssemblyInfoInputs.cache
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Domain\obj\Debug\net8.0\JobSearchApp.Domain.AssemblyInfo.cs
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Domain\obj\Debug\net8.0\JobSearchApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Domain\obj\Debug\net8.0\JobSearchApp.Domain.dll
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Domain\obj\Debug\net8.0\refint\JobSearchApp.Domain.dll
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Domain\obj\Debug\net8.0\JobSearchApp.Domain.pdb
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Domain\obj\Debug\net8.0\ref\JobSearchApp.Domain.dll

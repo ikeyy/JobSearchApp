@@ -1,0 +1,94 @@
+/* ── Nav Rail ── */
+.nav-rail {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  min-width: 220px;
+  height: 100vh;
+  background: var(--bg-2);
+  border-right: 1px solid var(--border);
+  overflow-y: auto;
+  flex-shrink: 0;
+  /* removed position: sticky and top: 0 — nav is a flex child, not sticky */
+}
+
+/* ── Logo ── */
+.nav-logo {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  padding: 20px 20px 16px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 8px;
+}
+
+.nav-logo span {
+  color: var(--accent);
+}
+
+/* ── Section Labels ── */
+.nav-section-label {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  padding: 12px 20px 4px;
+  user-select: none;
+}
+
+/* ── Nav Items ── */
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  margin: 1px 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.15s, color 0.15s;
+}
+
+.nav-item:hover {
+  background: var(--bg-3);
+  color: var(--text);
+}
+
+.nav-item.active {
+  background: var(--accent-bg);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.nav-item svg {
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+
+.nav-item.active svg {
+  opacity: 1;
+}
+
+/* ── Spacer (pushes footer to bottom) ── */
+.nav-spacer {
+  flex: 1;
+}
+
+/* ── Footer ── */
+.nav-footer {
+  padding: 16px 20px;
+  border-top: 1px solid var(--border);
+}
+
+.nav-api-status {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  color: var(--text-dim);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}

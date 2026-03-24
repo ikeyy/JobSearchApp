@@ -1,0 +1,101 @@
+<div class="page">
+  <div class="page-header">
+    <div>
+      <div class="page-title">Customers</div>
+      <div class="page-subtitle">{{ result.total | number }} registered customers</div>
+    </div>
+    <button class="btn btn-primary" (click)="openCreate()">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+      New Customer
+    </button>
+  </div>
+
+  <div class="toolbar">
+    <div class="search-bar">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" [(ngModel)]="searchQuery" (ngModelChange)="onSearch($event)"
+             placeholder="Search by name or ID…" />
+      <span *ngIf="loading" class="spinner"></span>
+    </div>
+  </div>
+
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Full Name</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngIf="!loading && result.items.length === 0">
+          <td colspan="5">
+            <div class="empty-state">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              <p>No customers found</p>
+            </div>
+          </td>
+        </tr>
+        <tr *ngFor="let c of result.items">
+          <td><span class="mono text-muted text-xs">{{ c.customerId }}</span></td>
+          <td>{{ c.firstName }}</td>
+          <td>{{ c.lastName }}</td>
+          <td>{{ c.firstName }} {{ c.lastName }}</td>
+          <td>
+            <div class="actions">
+              <button class="btn btn-ghost btn-sm" (click)="openEdit(c)">Edit</button>
+              <button class="btn btn-danger btn-sm" (click)="confirmDelete(c)">Delete</button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <app-pagination [page]="pageNumber" [pageSize]="pageSize" [total]="result.total"
+                  (pageChange)="onPageChange($event)"></app-pagination>
+</div>
+
+<!-- Modal -->
+<div class="modal-overlay" *ngIf="showModal" (click)="closeModal()">
+  <div class="modal" (click)="$event.stopPropagation()">
+    <div class="modal-header">
+      <span class="modal-title">{{ editingId ? 'Edit Customer' : 'New Customer' }}</span>
+      <button class="btn btn-ghost btn-sm btn-icon" (click)="closeModal()">✕</button>
+    </div>
+    <form [formGroup]="form" (ngSubmit)="submit()">
+      <div class="modal-body">
+        <div class="form-group">
+          <label class="form-label">First Name</label>
+          <input class="form-control" formControlName="firstName" placeholder="John"
+                 [class.error]="form.get('firstName')?.invalid && form.get('firstName')?.touched" />
+          <div class="form-error" *ngIf="form.get('firstName')?.invalid && form.get('firstName')?.touched">Required</div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Last Name</label>
+          <input class="form-control" formControlName="lastName" placeholder="Smith"
+                 [class.error]="form.get('lastName')?.invalid && form.get('lastName')?.touched" />
+          <div class="form-error" *ngIf="form.get('lastName')?.invalid && form.get('lastName')?.touched">Required</div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-ghost" (click)="closeModal()">Cancel</button>
+        <button type="submit" class="btn btn-primary" [disabled]="form.invalid || saving">
+          <span *ngIf="saving" class="spinner"></span>
+          {{ editingId ? 'Save Changes' : 'Create Customer' }}
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- Confirm Delete -->
+<app-confirm-dialog *ngIf="deleteTarget"
+  title="Delete Customer"
+  [message]="'Delete ' + deleteTarget.firstName + ' ' + deleteTarget.lastName + '? This cannot be undone.'"
+  (confirmed)="doDelete()"
+  (cancelled)="deleteTarget = null">
+</app-confirm-dialog>

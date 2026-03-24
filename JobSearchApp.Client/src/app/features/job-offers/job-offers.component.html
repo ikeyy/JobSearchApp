@@ -1,0 +1,132 @@
+<div class="page">
+  <div class="page-header">
+    <div>
+      <div class="page-title">Job Offers</div>
+      <div class="page-subtitle">Submit and manage contractor bids</div>
+    </div>
+    <button class="btn btn-primary" (click)="openCreate()">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+      Submit Offer
+    </button>
+  </div>
+
+  <!-- Lookup by Job or Contractor -->
+  <div class="card lookup-card">
+    <div class="lookup-title">Look Up Offers</div>
+    <div class="lookup-row">
+      <div class="lookup-group">
+        <input class="form-control" [(ngModel)]="lookupJobId" placeholder="Job ID" />
+        <button class="btn btn-ghost" (click)="lookupByJob()" [disabled]="!lookupJobId">By Job</button>
+      </div>
+      <div class="lookup-group">
+        <input class="form-control" [(ngModel)]="lookupContractorId" placeholder="Contractor ID" />
+        <button class="btn btn-ghost" (click)="lookupByContractor()" [disabled]="!lookupContractorId">By Contractor</button>
+      </div>
+    </div>
+    <div *ngIf="lookupLabel" class="lookup-result">
+      Showing: {{ lookupLabel }}
+    </div>
+  </div>
+
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>Offer ID</th>
+          <th>Job ID</th>
+          <th>Contractor ID</th>
+          <th>Price</th>
+          <th>Status</th>
+          <th>Submitted</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngIf="loading">
+          <td colspan="7" class="loading-cell">
+            <span class="spinner"></span>
+          </td>
+        </tr>
+        <tr *ngIf="!loading && offers.length === 0">
+          <td colspan="7">
+            <div class="empty-state">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+              <p>No offers found — look up by Job ID or Contractor ID above</p>
+            </div>
+          </td>
+        </tr>
+        <tr *ngFor="let o of offers">
+          <td><span class="mono text-xs text-muted">{{ o.jobOfferId.slice(0,8) }}…</span></td>
+          <td><span class="mono text-xs text-muted">{{ o.jobId.slice(0,8) }}…</span></td>
+          <td><span class="mono text-xs text-muted">{{ o.contractorId.slice(0,8) }}…</span></td>
+          <td><span class="mono offer-price">{{ o.price | currency }}</span></td>
+          <td>
+            <span class="badge" [ngClass]="statusClass(o.status)">{{ o.status }}</span>
+          </td>
+          <td><span class="mono text-xs text-muted">{{ o.createdAt | date:'MMM d, y' }}</span></td>
+          <td>
+            <div class="actions">
+              <button *ngIf="o.status === 'Pending'" class="btn btn-success btn-sm" (click)="accept(o)">Accept</button>
+              <button *ngIf="o.status === 'Pending'" class="btn btn-ghost btn-sm" (click)="reject(o)">Reject</button>
+              <button class="btn btn-danger btn-sm" (click)="confirmDelete(o)">Del</button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Pagination -->
+  <app-pagination
+    [page]="page"
+    [pageSize]="pageSize"
+    [total]="total"
+    (pageChange)="onPageChange($event)">
+  </app-pagination>
+</div>
+
+<!-- Create Offer Modal -->
+<div class="modal-overlay" *ngIf="showModal" (click)="closeModal()">
+  <div class="modal" (click)="$event.stopPropagation()">
+    <div class="modal-header">
+      <span class="modal-title">Submit Job Offer</span>
+      <button class="btn btn-ghost btn-sm btn-icon" (click)="closeModal()">✕</button>
+    </div>
+    <form [formGroup]="form" (ngSubmit)="submit()">
+      <div class="modal-body">
+        <div class="form-group">
+          <label class="form-label">Job ID</label>
+          <input class="form-control" formControlName="jobId" placeholder="Enter job ID…"
+                 [class.error]="form.get('jobId')?.invalid && form.get('jobId')?.touched" />
+          <div class="form-error" *ngIf="form.get('jobId')?.invalid && form.get('jobId')?.touched">Required</div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Contractor ID</label>
+          <input class="form-control" formControlName="contractorId" placeholder="Enter contractor ID…"
+                 [class.error]="form.get('contractorId')?.invalid && form.get('contractorId')?.touched" />
+          <div class="form-error" *ngIf="form.get('contractorId')?.invalid && form.get('contractorId')?.touched">Required</div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Your Price (USD)</label>
+          <input class="form-control" type="number" formControlName="price" min="1" placeholder="0.00"
+                 [class.error]="form.get('price')?.invalid && form.get('price')?.touched" />
+          <div class="form-error" *ngIf="form.get('price')?.invalid && form.get('price')?.touched">Must be > 0</div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-ghost" (click)="closeModal()">Cancel</button>
+        <button type="submit" class="btn btn-primary" [disabled]="form.invalid || saving">
+          <span *ngIf="saving" class="spinner"></span>
+          Submit Offer
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<app-confirm-dialog *ngIf="deleteTarget"
+  title="Delete Offer"
+  message="Remove this offer permanently?"
+  (confirmed)="doDelete()"
+  (cancelled)="deleteTarget = null">
+</app-confirm-dialog>

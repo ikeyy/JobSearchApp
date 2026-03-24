@@ -1,0 +1,16 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.pagination-info {
+  color: var(--text-dim);
+  font-size: 0.875rem;
+  margin-right: 8px;
+}
+
+.pagination-ellipsis {
+  color: var(--text-dim);
+  padding: 0 4px;
+}

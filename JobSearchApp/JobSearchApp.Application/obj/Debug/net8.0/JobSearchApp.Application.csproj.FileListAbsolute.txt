@@ -1,0 +1,15 @@
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Application\bin\Debug\net8.0\JobSearchApp.Application.deps.json
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Application\bin\Debug\net8.0\JobSearchApp.Application.dll
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Application\bin\Debug\net8.0\JobSearchApp.Application.pdb
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Application\bin\Debug\net8.0\JobSearchApp.Domain.dll
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Application\bin\Debug\net8.0\JobSearchApp.Domain.pdb
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Application\obj\Debug\net8.0\JobSearchApp.Application.csproj.AssemblyReference.cache
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Application\obj\Debug\net8.0\JobSearchApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Application\obj\Debug\net8.0\JobSearchApp.Application.AssemblyInfoInputs.cache
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Application\obj\Debug\net8.0\JobSearchApp.Application.AssemblyInfo.cs
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Application\obj\Debug\net8.0\JobSearchApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Application\obj\Debug\net8.0\JobSearc.E6F99509.Up2Date
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Application\obj\Debug\net8.0\JobSearchApp.Application.dll
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Application\obj\Debug\net8.0\refint\JobSearchApp.Application.dll
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Application\obj\Debug\net8.0\JobSearchApp.Application.pdb
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Application\obj\Debug\net8.0\ref\JobSearchApp.Application.dll

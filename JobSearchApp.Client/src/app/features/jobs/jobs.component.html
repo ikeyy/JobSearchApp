@@ -1,0 +1,213 @@
+<div class="page">
+  <div class="page-header">
+    <div>
+      <div class="page-title">Jobs</div>
+      <div class="page-subtitle">{{ result.total | number }} total jobs in marketplace</div>
+    </div>
+    <button class="btn btn-primary" (click)="openCreate()">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+      Post Job
+    </button>
+  </div>
+
+  <!-- Filters -->
+  <div class="toolbar filters-toolbar">
+    <div class="search-bar">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" [(ngModel)]="searchQuery" (ngModelChange)="onSearch($event)" placeholder="Search descriptions…" />
+      <span *ngIf="loading" class="spinner"></span>
+    </div>
+    <select class="form-control status-filter" [(ngModel)]="statusFilter" (ngModelChange)="onFilter()">
+      <option value="">All Statuses</option>
+      <option value="Open">Open</option>
+      <option value="Offered">Offered</option>
+      <option value="Accepted">Accepted</option>
+      <option value="Completed">Completed</option>
+      <option value="Cancelled">Cancelled</option>
+    </select>
+    <div class="budget-range">
+      <input class="form-control" type="number" [(ngModel)]="minBudget" (ngModelChange)="onFilter()" placeholder="Min $" />
+      <span class="budget-separator">–</span>
+      <input class="form-control" type="number" [(ngModel)]="maxBudget" (ngModelChange)="onFilter()" placeholder="Max $" />
+    </div>
+  </div>
+
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Description</th>
+          <th>Budget</th>
+          <th>Start Date</th>
+          <th>Due Date</th>
+          <th>Status</th>
+          <th>Accepted By</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngIf="!loading && result.items.length === 0">
+          <td colspan="8">
+            <div class="empty-state">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>
+              <p>No jobs found</p>
+            </div>
+          </td>
+        </tr>
+        <tr *ngFor="let j of result.items">
+          <td><span class="mono text-muted text-xs">{{ j.jobId.slice(0,8) }}…</span></td>
+          <td>
+            <span class="description-cell" [title]="j.description">{{ j.description }}</span>
+          </td>
+          <td>
+            <span class="mono budget-value">{{ j.budget | currency }}</span>
+          </td>
+          <td><span class="mono text-xs">{{ j.startDate | date:'MMM d, y' }}</span></td>
+          <td><span class="mono text-xs">{{ j.dueDate | date:'MMM d, y' }}</span></td>
+          <td>
+            <span class="badge" [ngClass]="statusClass(j.status)">{{ j.status }}</span>
+          </td>
+          <td>
+            <span *ngIf="j.acceptedBy" class="mono text-muted text-xs">{{ j.acceptedBy }}</span>
+            <span *ngIf="!j.acceptedBy" class="empty-value">—</span>
+          </td>
+          <td>
+            <div class="actions">
+              <button class="btn btn-ghost btn-sm" (click)="viewOffers(j)">Offers</button>
+              <button class="btn btn-ghost btn-sm" (click)="openEdit(j)">Edit</button>
+              <button class="btn btn-danger btn-sm" (click)="confirmDelete(j)">Del</button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <app-pagination [page]="pageNumber" [pageSize]="pageSize" [total]="result.total"
+                  (pageChange)="onPageChange($event)"></app-pagination>
+</div>
+
+<!-- Job Form Modal -->
+<div class="modal-overlay" *ngIf="showModal" (click)="closeModal()">
+  <div class="modal modal-job" (click)="$event.stopPropagation()">
+    <div class="modal-header">
+      <span class="modal-title">{{ editingId ? 'Edit Job' : 'Post New Job' }}</span>
+      <button class="btn btn-ghost btn-sm btn-icon" (click)="closeModal()">✕</button>
+    </div>
+    <form [formGroup]="form" (ngSubmit)="submit()">
+      <div class="modal-body">
+        <div class="form-group">
+          <label class="form-label">Description</label>
+          <textarea class="form-control" formControlName="description" rows="3"
+                    placeholder="Describe the work to be done…"
+                    [class.error]="form.get('description')?.invalid && form.get('description')?.touched"></textarea>
+          <div class="form-error" *ngIf="form.get('description')?.invalid && form.get('description')?.touched">Required, min 10 characters</div>
+        </div>
+        <div class="form-grid cols-2">
+          <div class="form-group">
+            <label class="form-label">Start Date</label>
+            <input class="form-control" type="date" formControlName="startDate"
+                   [class.error]="form.get('startDate')?.invalid && form.get('startDate')?.touched" />
+            <div class="form-error" *ngIf="form.get('startDate')?.invalid && form.get('startDate')?.touched">Required</div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Due Date</label>
+            <input class="form-control" type="date" formControlName="dueDate"
+                   [class.error]="form.get('dueDate')?.invalid && form.get('dueDate')?.touched" />
+            <div class="form-error" *ngIf="form.get('dueDate')?.invalid && form.get('dueDate')?.touched">Required</div>
+          </div>
+        </div>
+        <div class="form-grid cols-2">
+          <div class="form-group">
+            <label class="form-label">Budget (USD)</label>
+            <input class="form-control" type="number" formControlName="budget" min="1" placeholder="0.00"
+                   [class.error]="form.get('budget')?.invalid && form.get('budget')?.touched" />
+            <div class="form-error" *ngIf="form.get('budget')?.invalid && form.get('budget')?.touched">Must be > 0</div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Customer Id</label>
+            <input
+              class="form-control"
+              formControlName="customerId"
+              placeholder="cust_…"
+              [class.error]="form.get('customerId')?.invalid && form.get('customerId')?.touched"
+            />
+            <div class="form-error" *ngIf="form.get('customerId')?.invalid && form.get('customerId')?.touched">Required</div>
+          </div>
+        </div>
+        <div class="form-group" *ngIf="editingId">
+          <label class="form-label">Status</label>
+          <select class="form-control" formControlName="status">
+            <option value="Open">Open</option>
+            <option value="Offered">Offered</option>
+            <option value="Accepted">Accepted</option>
+            <option value="Completed">Completed</option>
+            <option value="Cancelled">Cancelled</option>
+          </select>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-ghost" (click)="closeModal()">Cancel</button>
+        <button type="submit" class="btn btn-primary" [disabled]="form.invalid || saving">
+          <span *ngIf="saving" class="spinner"></span>
+          {{ editingId ? 'Save Changes' : 'Post Job' }}
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- Offers Panel -->
+<div class="modal-overlay" *ngIf="offersJob" (click)="closeOffers()">
+  <div class="modal modal-wide" (click)="$event.stopPropagation()">
+    <div class="modal-header">
+      <span class="modal-title">Job Offers</span>
+      <button class="btn btn-ghost btn-sm btn-icon" (click)="closeOffers()">✕</button>
+    </div>
+    <div class="modal-body" style="padding: 0">
+      <div class="offers-job-context">
+        <span class="mono">{{ offersJob.jobId }}</span> · {{ offersJob.description | slice:0:80 }}
+      </div>
+      <div *ngIf="offersLoading" class="offers-loading"><span class="spinner"></span></div>
+      <div *ngIf="!offersLoading && (!offers || offers.length === 0)" class="empty-state offers-empty">
+        <p>No offers yet</p>
+      </div>
+      <table *ngIf="!offersLoading && offers.length > 0" class="offers-table">
+        <thead>
+          <tr>
+            <th>Contractor</th>
+            <th>Price</th>
+            <th>Status</th>
+            <th>Submitted</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let o of offers">
+            <td><span class="mono text-xs">{{ o.contractorId }}</span></td>
+            <td><span class="mono offer-price">{{ o.price | currency }}</span></td>
+            <td><span class="badge" [ngClass]="offerStatusClass(o.status)">{{ o.status }}</span></td>
+            <td><span class="mono text-xs text-muted">{{ o.createdAt | date:'MMM d' }}</span></td>
+            <td>
+              <div class="actions" *ngIf="o.status === 'Pending'">
+                <button class="btn btn-success btn-sm" (click)="acceptOffer(o)">Accept</button>
+                <button class="btn btn-danger btn-sm" (click)="rejectOffer(o)">Reject</button>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-ghost" (click)="closeOffers()">Close</button>
+    </div>
+  </div>
+</div>
+
+<app-confirm-dialog *ngIf="deleteTarget"
+  title="Delete Job"
+  message="Delete this job posting? All related offers will also be removed."
+  (confirmed)="doDelete()"
+  (cancelled)="deleteTarget = null">
+</app-confirm-dialog>

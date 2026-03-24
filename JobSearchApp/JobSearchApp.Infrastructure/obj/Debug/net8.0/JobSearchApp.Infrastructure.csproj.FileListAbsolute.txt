@@ -1,0 +1,17 @@
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Infrastructure\bin\Debug\net8.0\JobSearchApp.Infrastructure.deps.json
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Infrastructure\bin\Debug\net8.0\JobSearchApp.Infrastructure.runtimeconfig.json
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Infrastructure\bin\Debug\net8.0\JobSearchApp.Infrastructure.dll
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Infrastructure\bin\Debug\net8.0\JobSearchApp.Infrastructure.pdb
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Infrastructure\bin\Debug\net8.0\JobSearchApp.Domain.dll
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Infrastructure\bin\Debug\net8.0\JobSearchApp.Domain.pdb
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Infrastructure\obj\Debug\net8.0\JobSearchApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Infrastructure\obj\Debug\net8.0\JobSearchApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Infrastructure\obj\Debug\net8.0\JobSearchApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Infrastructure\obj\Debug\net8.0\JobSearchApp.Infrastructure.AssemblyInfo.cs
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Infrastructure\obj\Debug\net8.0\JobSearchApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Infrastructure\obj\Debug\net8.0\JobSearc.062D4ADD.Up2Date
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Infrastructure\obj\Debug\net8.0\JobSearchApp.Infrastructure.dll
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Infrastructure\obj\Debug\net8.0\refint\JobSearchApp.Infrastructure.dll
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Infrastructure\obj\Debug\net8.0\JobSearchApp.Infrastructure.pdb
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Infrastructure\obj\Debug\net8.0\JobSearchApp.Infrastructure.genruntimeconfig.cache
+C:\Users\Ed Kristian Capiral\source\repos\JobSearchApp\JobSearchApp.Infrastructure\obj\Debug\net8.0\ref\JobSearchApp.Infrastructure.dll
