@@ -38,7 +38,7 @@ export const environment = {
 **.NET Core** — In `appSettings.development.json`, set `AllowedOrigins` to match the localhost port of the Angular app, and align `ServerName` with your machine's SQL credentials:
 ```json
 {
-  "AllowedOrigins": "{your-angularApp-localhosturl}",
+  "AllowedOrigins": "{your-angularApp-localhostURL}",
   "ConnectionStrings": {
     "DefaultConnection": "Server={your-server-name};Database=JobSearchDB;..."
   }
