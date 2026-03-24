@@ -75,7 +75,7 @@ export const environment = {
 
 ## 🛣️ Future Improvements
 
-The following enhancements are planned for upcoming development cycles:
+The following enhancements could be done to improve the app:
 
 | Feature | Description |
 |---------|-------------|
