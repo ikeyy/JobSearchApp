@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Infrastructure\\JobSearchApp.Infrastructure.csproj": {}
+    "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Infrastructure\\JobSearchApp.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Domain\\JobSearchApp.Domain.csproj": {
+    "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Domain\\JobSearchApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Domain\\JobSearchApp.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Domain\\JobSearchApp.Domain.csproj",
         "projectName": "JobSearchApp.Domain",
-        "projectPath": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Domain\\JobSearchApp.Domain.csproj",
+        "projectPath": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Domain\\JobSearchApp.Domain.csproj",
         "packagesPath": "C:\\Users\\Ed Kristian Capiral\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Infrastructure\\JobSearchApp.Infrastructure.csproj": {
+    "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Infrastructure\\JobSearchApp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Infrastructure\\JobSearchApp.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Infrastructure\\JobSearchApp.Infrastructure.csproj",
         "projectName": "JobSearchApp.Infrastructure",
-        "projectPath": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Infrastructure\\JobSearchApp.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Infrastructure\\JobSearchApp.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Ed Kristian Capiral\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,8 +99,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Domain\\JobSearchApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Domain\\JobSearchApp.Domain.csproj"
+              "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Domain\\JobSearchApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Domain\\JobSearchApp.Domain.csproj"
               }
             }
           }

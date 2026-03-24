@@ -1,216 +1,220 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\",
+  "WorkspaceRootPath": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.tests\\commands\\updatejoboffer\\updatejoboffercommandvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F434033-835C-4F3D-9F21-26640085D132}|JobSearchApp.API\\JobSearchApp.API.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1F434033-835C-4F3D-9F21-26640085D132}|JobSearchApp.API\\JobSearchApp.API.csproj|solutionrelative:jobsearchapp.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.tests\\commands\\updatejoboffer\\updatejoboffercommandvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|solutionrelative:jobsearchapp.tests\\commands\\updatejoboffer\\updatejoboffercommandvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.application\\command\\updatejoboffer\\updatejoboffercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.application\\command\\updatejoboffer\\updatejoboffercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|solutionrelative:jobsearchapp.application\\command\\updatejoboffer\\updatejoboffercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9E6F20C-882B-49F0-8171-EF3126A1B4E8}|JobSearchApp.Infrastructure\\JobSearchApp.Infrastructure.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.infrastructure\\repositories\\jobofferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9E6F20C-882B-49F0-8171-EF3126A1B4E8}|JobSearchApp.Infrastructure\\JobSearchApp.Infrastructure.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.infrastructure\\repositories\\jobofferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9E6F20C-882B-49F0-8171-EF3126A1B4E8}|JobSearchApp.Infrastructure\\JobSearchApp.Infrastructure.csproj|solutionrelative:jobsearchapp.infrastructure\\repositories\\jobofferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.application\\command\\updatejob\\updatejobcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.application\\command\\updatejob\\updatejobcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|solutionrelative:jobsearchapp.application\\command\\updatejob\\updatejobcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.tests\\commands\\createjob\\createjobcommandvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.tests\\commands\\createjob\\createjobcommandvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|solutionrelative:jobsearchapp.tests\\commands\\createjob\\createjobcommandvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F434033-835C-4F3D-9F21-26640085D132}|JobSearchApp.API\\JobSearchApp.API.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F434033-835C-4F3D-9F21-26640085D132}|JobSearchApp.API\\JobSearchApp.API.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F434033-835C-4F3D-9F21-26640085D132}|JobSearchApp.API\\JobSearchApp.API.csproj|solutionrelative:jobsearchapp.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.application\\command\\createjoboffer\\createjoboffercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.application\\command\\createjoboffer\\createjoboffercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|solutionrelative:jobsearchapp.application\\command\\createjoboffer\\createjoboffercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.application\\command\\createjob\\createjobcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.application\\command\\createjob\\createjobcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|solutionrelative:jobsearchapp.application\\command\\createjob\\createjobcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.tests\\commands\\updatejob\\updatejobcommandvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.tests\\commands\\updatejob\\updatejobcommandvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|solutionrelative:jobsearchapp.tests\\commands\\updatejob\\updatejobcommandvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.tests\\commands\\updatejoboffer\\updatejoboffercommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.tests\\commands\\updatejoboffer\\updatejoboffercommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|solutionrelative:jobsearchapp.tests\\commands\\updatejoboffer\\updatejoboffercommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.application\\command\\updatejobofferstatus\\updatejobofferstatuscommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.application\\command\\updatejobofferstatus\\updatejobofferstatuscommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|solutionrelative:jobsearchapp.application\\command\\updatejobofferstatus\\updatejobofferstatuscommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.application\\command\\updatejoboffer\\updatejoboffercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.application\\command\\updatejoboffer\\updatejoboffercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|solutionrelative:jobsearchapp.application\\command\\updatejoboffer\\updatejoboffercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.tests\\query\\searchjoboffer\\searchjobofferhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.tests\\query\\searchjoboffer\\searchjobofferhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|solutionrelative:jobsearchapp.tests\\query\\searchjoboffer\\searchjobofferhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.tests\\commands\\createjoboffer\\createjoboffercommandvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.tests\\commands\\createjoboffer\\createjoboffercommandvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|solutionrelative:jobsearchapp.tests\\commands\\createjoboffer\\createjoboffercommandvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.tests\\query\\searchjob\\searchjobqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.tests\\query\\searchjob\\searchjobqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|solutionrelative:jobsearchapp.tests\\query\\searchjob\\searchjobqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.tests\\query\\searchcustomer\\searchcustomerqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.tests\\query\\searchcustomer\\searchcustomerqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|solutionrelative:jobsearchapp.tests\\query\\searchcustomer\\searchcustomerqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.tests\\query\\searchcontractor\\searchcontractorqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.tests\\query\\searchcontractor\\searchcontractorqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|solutionrelative:jobsearchapp.tests\\query\\searchcontractor\\searchcontractorqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.tests\\commands\\updatejob\\updatejobcommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.tests\\commands\\updatejob\\updatejobcommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|solutionrelative:jobsearchapp.tests\\commands\\updatejob\\updatejobcommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.tests\\commands\\deletejoboffer\\deletejoboffercommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.tests\\commands\\deletejoboffer\\deletejoboffercommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|solutionrelative:jobsearchapp.tests\\commands\\deletejoboffer\\deletejoboffercommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.tests\\commands\\createjoboffer\\createjoboffercommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.tests\\commands\\createjoboffer\\createjoboffercommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|solutionrelative:jobsearchapp.tests\\commands\\createjoboffer\\createjoboffercommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.tests\\commands\\deletejob\\deletejobcommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.tests\\commands\\deletejob\\deletejobcommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|solutionrelative:jobsearchapp.tests\\commands\\deletejob\\deletejobcommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{456E7579-96BD-44C7-90BB-C7AED9271F25}|JobSearchApp.Domain\\JobSearchApp.Domain.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.domain\\interfaces\\repository\\ijobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{456E7579-96BD-44C7-90BB-C7AED9271F25}|JobSearchApp.Domain\\JobSearchApp.Domain.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.domain\\interfaces\\repository\\ijobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{456E7579-96BD-44C7-90BB-C7AED9271F25}|JobSearchApp.Domain\\JobSearchApp.Domain.csproj|solutionrelative:jobsearchapp.domain\\interfaces\\repository\\ijobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9E6F20C-882B-49F0-8171-EF3126A1B4E8}|JobSearchApp.Infrastructure\\JobSearchApp.Infrastructure.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.infrastructure\\repositories\\jobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9E6F20C-882B-49F0-8171-EF3126A1B4E8}|JobSearchApp.Infrastructure\\JobSearchApp.Infrastructure.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.infrastructure\\repositories\\jobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9E6F20C-882B-49F0-8171-EF3126A1B4E8}|JobSearchApp.Infrastructure\\JobSearchApp.Infrastructure.csproj|solutionrelative:jobsearchapp.infrastructure\\repositories\\jobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.application\\command\\updatejobofferstatus\\updatejobofferstatuscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.application\\command\\updatejobofferstatus\\updatejobofferstatuscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|solutionrelative:jobsearchapp.application\\command\\updatejobofferstatus\\updatejobofferstatuscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F434033-835C-4F3D-9F21-26640085D132}|JobSearchApp.API\\JobSearchApp.API.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.api\\controllers\\joboffercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F434033-835C-4F3D-9F21-26640085D132}|JobSearchApp.API\\JobSearchApp.API.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.api\\controllers\\joboffercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F434033-835C-4F3D-9F21-26640085D132}|JobSearchApp.API\\JobSearchApp.API.csproj|solutionrelative:jobsearchapp.api\\controllers\\joboffercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.application\\command\\updatejobofferstatus\\updatejobofferstatuscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.application\\command\\updatejobofferstatus\\updatejobofferstatuscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|solutionrelative:jobsearchapp.application\\command\\updatejobofferstatus\\updatejobofferstatuscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{456E7579-96BD-44C7-90BB-C7AED9271F25}|JobSearchApp.Domain\\JobSearchApp.Domain.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.domain\\dto\\joboffer\\setjobofferstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{456E7579-96BD-44C7-90BB-C7AED9271F25}|JobSearchApp.Domain\\JobSearchApp.Domain.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.domain\\dto\\joboffer\\setjobofferstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{456E7579-96BD-44C7-90BB-C7AED9271F25}|JobSearchApp.Domain\\JobSearchApp.Domain.csproj|solutionrelative:jobsearchapp.domain\\dto\\joboffer\\setjobofferstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F434033-835C-4F3D-9F21-26640085D132}|JobSearchApp.API\\JobSearchApp.API.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.api\\controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F434033-835C-4F3D-9F21-26640085D132}|JobSearchApp.API\\JobSearchApp.API.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.api\\controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F434033-835C-4F3D-9F21-26640085D132}|JobSearchApp.API\\JobSearchApp.API.csproj|solutionrelative:jobsearchapp.api\\controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F434033-835C-4F3D-9F21-26640085D132}|JobSearchApp.API\\JobSearchApp.API.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F434033-835C-4F3D-9F21-26640085D132}|JobSearchApp.API\\JobSearchApp.API.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F434033-835C-4F3D-9F21-26640085D132}|JobSearchApp.API\\JobSearchApp.API.csproj|solutionrelative:jobsearchapp.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.application\\command\\deletejob\\deletejobcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.application\\command\\deletejob\\deletejobcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|solutionrelative:jobsearchapp.application\\command\\deletejob\\deletejobcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.application\\command\\deletejoboffer\\deletejoboffercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.application\\command\\deletejoboffer\\deletejoboffercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|solutionrelative:jobsearchapp.application\\command\\deletejoboffer\\deletejoboffercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.application\\command\\updatejob\\updatejobcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.application\\command\\updatejob\\updatejobcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|solutionrelative:jobsearchapp.application\\command\\updatejob\\updatejobcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.application\\command\\updatejob\\updatejobcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.application\\command\\updatejob\\updatejobcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|solutionrelative:jobsearchapp.application\\command\\updatejob\\updatejobcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.application\\command\\createjoboffer\\createjoboffercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.application\\command\\createjoboffer\\createjoboffercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|solutionrelative:jobsearchapp.application\\command\\createjoboffer\\createjoboffercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.application\\command\\createjob\\createjobcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.application\\command\\createjob\\createjobcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|solutionrelative:jobsearchapp.application\\command\\createjob\\createjobcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.application\\command\\createcustomer\\createcustomercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.application\\command\\createcustomer\\createcustomercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|solutionrelative:jobsearchapp.application\\command\\createcustomer\\createcustomercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.application\\command\\createcustomer\\createcustomercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.application\\command\\createcustomer\\createcustomercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|solutionrelative:jobsearchapp.application\\command\\createcustomer\\createcustomercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.application\\command\\createcontractor\\createcontractorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.application\\command\\createcontractor\\createcontractorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|solutionrelative:jobsearchapp.application\\command\\createcontractor\\createcontractorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.application\\command\\createcontractor\\createcontractorcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.application\\command\\createcontractor\\createcontractorcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|solutionrelative:jobsearchapp.application\\command\\createcontractor\\createcontractorcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ed Kristian Capiral\\.nuget\\packages\\xunit.v3.core.mtp-v1\\3.2.2\\buildTransitive\\xunit.v3.core.mtp-v1.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.tests\\commands\\createjob\\createjobcommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.tests\\commands\\createjob\\createjobcommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F3E1E80-B09E-4556-BED2-F882BE9657F5}|JobSearchApp.Tests\\JobSearchApp.Tests.csproj|solutionrelative:jobsearchapp.tests\\commands\\createjob\\createjobcommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F434033-835C-4F3D-9F21-26640085D132}|JobSearchApp.API\\JobSearchApp.API.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.api\\controllers\\contractorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F434033-835C-4F3D-9F21-26640085D132}|JobSearchApp.API\\JobSearchApp.API.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.api\\controllers\\contractorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F434033-835C-4F3D-9F21-26640085D132}|JobSearchApp.API\\JobSearchApp.API.csproj|solutionrelative:jobsearchapp.api\\controllers\\contractorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9E6F20C-882B-49F0-8171-EF3126A1B4E8}|JobSearchApp.Infrastructure\\JobSearchApp.Infrastructure.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9E6F20C-882B-49F0-8171-EF3126A1B4E8}|JobSearchApp.Infrastructure\\JobSearchApp.Infrastructure.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9E6F20C-882B-49F0-8171-EF3126A1B4E8}|JobSearchApp.Infrastructure\\JobSearchApp.Infrastructure.csproj|solutionrelative:jobsearchapp.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9E6F20C-882B-49F0-8171-EF3126A1B4E8}|JobSearchApp.Infrastructure\\JobSearchApp.Infrastructure.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9E6F20C-882B-49F0-8171-EF3126A1B4E8}|JobSearchApp.Infrastructure\\JobSearchApp.Infrastructure.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9E6F20C-882B-49F0-8171-EF3126A1B4E8}|JobSearchApp.Infrastructure\\JobSearchApp.Infrastructure.csproj|solutionrelative:jobsearchapp.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.application\\query\\searchjoboffer\\searchjobofferquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.application\\query\\searchjoboffer\\searchjobofferquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|solutionrelative:jobsearchapp.application\\query\\searchjoboffer\\searchjobofferquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{456E7579-96BD-44C7-90BB-C7AED9271F25}|JobSearchApp.Domain\\JobSearchApp.Domain.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.domain\\enums\\jobofferstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{456E7579-96BD-44C7-90BB-C7AED9271F25}|JobSearchApp.Domain\\JobSearchApp.Domain.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.domain\\enums\\jobofferstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{456E7579-96BD-44C7-90BB-C7AED9271F25}|JobSearchApp.Domain\\JobSearchApp.Domain.csproj|solutionrelative:jobsearchapp.domain\\enums\\jobofferstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{456E7579-96BD-44C7-90BB-C7AED9271F25}|JobSearchApp.Domain\\JobSearchApp.Domain.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.domain\\interfaces\\repository\\ijobofferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{456E7579-96BD-44C7-90BB-C7AED9271F25}|JobSearchApp.Domain\\JobSearchApp.Domain.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.domain\\interfaces\\repository\\ijobofferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{456E7579-96BD-44C7-90BB-C7AED9271F25}|JobSearchApp.Domain\\JobSearchApp.Domain.csproj|solutionrelative:jobsearchapp.domain\\interfaces\\repository\\ijobofferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.application\\command\\createjoboffer\\createjoboffercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.application\\command\\createjoboffer\\createjoboffercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|solutionrelative:jobsearchapp.application\\command\\createjoboffer\\createjoboffercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.application\\query\\searchjob\\searchjobqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.application\\query\\searchjob\\searchjobqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|solutionrelative:jobsearchapp.application\\query\\searchjob\\searchjobqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.application\\query\\searchjoboffer\\searchjobofferqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.application\\query\\searchjoboffer\\searchjobofferqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4BB8B4-2C43-4CF8-B00D-FC2B9BD2AAD4}|JobSearchApp.Application\\JobSearchApp.Application.csproj|solutionrelative:jobsearchapp.application\\query\\searchjoboffer\\searchjobofferqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{456E7579-96BD-44C7-90BB-C7AED9271F25}|JobSearchApp.Domain\\JobSearchApp.Domain.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.domain\\services\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{456E7579-96BD-44C7-90BB-C7AED9271F25}|JobSearchApp.Domain\\JobSearchApp.Domain.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.domain\\services\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{456E7579-96BD-44C7-90BB-C7AED9271F25}|JobSearchApp.Domain\\JobSearchApp.Domain.csproj|solutionrelative:jobsearchapp.domain\\services\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9E6F20C-882B-49F0-8171-EF3126A1B4E8}|JobSearchApp.Infrastructure\\JobSearchApp.Infrastructure.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.infrastructure\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9E6F20C-882B-49F0-8171-EF3126A1B4E8}|JobSearchApp.Infrastructure\\JobSearchApp.Infrastructure.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.infrastructure\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9E6F20C-882B-49F0-8171-EF3126A1B4E8}|JobSearchApp.Infrastructure\\JobSearchApp.Infrastructure.csproj|solutionrelative:jobsearchapp.infrastructure\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{456E7579-96BD-44C7-90BB-C7AED9271F25}|JobSearchApp.Domain\\JobSearchApp.Domain.csproj|c:\\users\\ed kristian capiral\\source\\repos\\jobsearchapp\\jobsearchapp.domain\\dto\\joboffer\\jobofferdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{456E7579-96BD-44C7-90BB-C7AED9271F25}|JobSearchApp.Domain\\JobSearchApp.Domain.csproj|c:\\users\\ed kristian capiral\\documents\\github\\jobsearchapp\\jobsearchapp\\jobsearchapp.domain\\dto\\joboffer\\jobofferdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{456E7579-96BD-44C7-90BB-C7AED9271F25}|JobSearchApp.Domain\\JobSearchApp.Domain.csproj|solutionrelative:jobsearchapp.domain\\dto\\joboffer\\jobofferdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -230,691 +234,651 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UpdateJobOfferCommandValidatorTests.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Commands\\UpdateJobOffer\\UpdateJobOfferCommandValidatorTests.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Commands\\UpdateJobOffer\\UpdateJobOfferCommandValidatorTests.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Commands\\UpdateJobOffer\\UpdateJobOfferCommandValidatorTests.cs",
-              "RelativeToolTip": "JobSearchApp.Tests\\Commands\\UpdateJobOffer\\UpdateJobOfferCommandValidatorTests.cs",
-              "ViewState": "AgIAAMQBAAAAAAAAAAAqwMcBAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T15:42:11.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateJobOfferCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateJobOffer\\CreateJobOfferCommandValidator.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\CreateJobOffer\\CreateJobOfferCommandValidator.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateJobOffer\\CreateJobOfferCommandValidator.cs",
-              "RelativeToolTip": "JobSearchApp.Application\\Command\\CreateJobOffer\\CreateJobOfferCommandValidator.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBMAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T15:46:52.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "JobOfferRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Infrastructure\\Repositories\\JobOfferRepository.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Infrastructure\\Repositories\\JobOfferRepository.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Infrastructure\\Repositories\\JobOfferRepository.cs",
-              "RelativeToolTip": "JobSearchApp.Infrastructure\\Repositories\\JobOfferRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAvwBEAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T15:36:09.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UpdateJobCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJob\\UpdateJobCommandValidator.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\UpdateJob\\UpdateJobCommandValidator.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJob\\UpdateJobCommandValidator.cs",
-              "RelativeToolTip": "JobSearchApp.Application\\Command\\UpdateJob\\UpdateJobCommandValidator.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAxwDYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:24:00.044Z",
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "JobSearchApp.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.API\\appsettings.Development.json",
+              "RelativeToolTip": "JobSearchApp.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T05:16:44.788Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UpdateJobOfferCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJobOffer\\UpdateJobOfferCommandValidator.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\UpdateJobOffer\\UpdateJobOfferCommandValidator.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJobOffer\\UpdateJobOfferCommandValidator.cs",
-              "RelativeToolTip": "JobSearchApp.Application\\Command\\UpdateJobOffer\\UpdateJobOfferCommandValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Title": "UpdateJobOfferCommandValidatorTests.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Commands\\UpdateJobOffer\\UpdateJobOfferCommandValidatorTests.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Commands\\UpdateJobOffer\\UpdateJobOfferCommandValidatorTests.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Commands\\UpdateJobOffer\\UpdateJobOfferCommandValidatorTests.cs",
+              "RelativeToolTip": "JobSearchApp.Tests\\Commands\\UpdateJobOffer\\UpdateJobOfferCommandValidatorTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T14:37:58.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateJobCommandValidatorTests.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Commands\\CreateJob\\CreateJobCommandValidatorTests.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Commands\\CreateJob\\CreateJobCommandValidatorTests.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Commands\\CreateJob\\CreateJobCommandValidatorTests.cs",
-              "RelativeToolTip": "JobSearchApp.Tests\\Commands\\CreateJob\\CreateJobCommandValidatorTests.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAEwBgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T15:41:57.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UpdateJobCommandValidatorTests.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Commands\\UpdateJob\\UpdateJobCommandValidatorTests.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Commands\\UpdateJob\\UpdateJobCommandValidatorTests.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Commands\\UpdateJob\\UpdateJobCommandValidatorTests.cs",
-              "RelativeToolTip": "JobSearchApp.Tests\\Commands\\UpdateJob\\UpdateJobCommandValidatorTests.cs",
-              "ViewState": "AgIAAOkBAAAAAAAAAAAtwPQBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T15:03:52.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T15:42:11.115Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "CreateJobCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateJob\\CreateJobCommandValidator.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\CreateJob\\CreateJobCommandValidator.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateJob\\CreateJobCommandValidator.cs",
-              "RelativeToolTip": "JobSearchApp.Application\\Command\\CreateJob\\CreateJobCommandValidator.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAwAAAAAAAAAAAAAAA==",
+              "Title": "CreateJobOfferCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateJobOffer\\CreateJobOfferCommandValidator.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\CreateJobOffer\\CreateJobOfferCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateJobOffer\\CreateJobOfferCommandValidator.cs",
+              "RelativeToolTip": "JobSearchApp.Application\\Command\\CreateJobOffer\\CreateJobOfferCommandValidator.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:16:57.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T15:46:52.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JobOfferRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Infrastructure\\Repositories\\JobOfferRepository.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Infrastructure\\Repositories\\JobOfferRepository.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Infrastructure\\Repositories\\JobOfferRepository.cs",
+              "RelativeToolTip": "JobSearchApp.Infrastructure\\Repositories\\JobOfferRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAvwBEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T15:36:09.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateJobCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJob\\UpdateJobCommandValidator.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\UpdateJob\\UpdateJobCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJob\\UpdateJobCommandValidator.cs",
+              "RelativeToolTip": "JobSearchApp.Application\\Command\\UpdateJob\\UpdateJobCommandValidator.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAxwDYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:24:00.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateJobOfferCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJobOffer\\UpdateJobOfferCommandValidator.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\UpdateJobOffer\\UpdateJobOfferCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJobOffer\\UpdateJobOfferCommandValidator.cs",
+              "RelativeToolTip": "JobSearchApp.Application\\Command\\UpdateJobOffer\\UpdateJobOfferCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T14:37:58.964Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.API\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.API\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.API\\DependencyInjection.cs",
-              "RelativeToolTip": "JobSearchApp.API\\DependencyInjection.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwDMAAABbAAAAAAAAAA==",
+              "Title": "CreateJobCommandValidatorTests.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Commands\\CreateJob\\CreateJobCommandValidatorTests.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Commands\\CreateJob\\CreateJobCommandValidatorTests.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Commands\\CreateJob\\CreateJobCommandValidatorTests.cs",
+              "RelativeToolTip": "JobSearchApp.Tests\\Commands\\CreateJob\\CreateJobCommandValidatorTests.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAEwBgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T15:49:59.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UpdateJobOfferStatusCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJobOfferStatus\\UpdateJobOfferStatusCommandValidator.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\UpdateJobOfferStatus\\UpdateJobOfferStatusCommandValidator.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJobOfferStatus\\UpdateJobOfferStatusCommandValidator.cs",
-              "RelativeToolTip": "JobSearchApp.Application\\Command\\UpdateJobOfferStatus\\UpdateJobOfferStatusCommandValidator.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:19:14.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T15:41:57.618Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "UpdateJobOfferCommandHandlerTests.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Commands\\UpdateJobOffer\\UpdateJobOfferCommandHandlerTests.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Commands\\UpdateJobOffer\\UpdateJobOfferCommandHandlerTests.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Commands\\UpdateJobOffer\\UpdateJobOfferCommandHandlerTests.cs",
-              "RelativeToolTip": "JobSearchApp.Tests\\Commands\\UpdateJobOffer\\UpdateJobOfferCommandHandlerTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Title": "UpdateJobCommandValidatorTests.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Commands\\UpdateJob\\UpdateJobCommandValidatorTests.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Commands\\UpdateJob\\UpdateJobCommandValidatorTests.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Commands\\UpdateJob\\UpdateJobCommandValidatorTests.cs",
+              "RelativeToolTip": "JobSearchApp.Tests\\Commands\\UpdateJob\\UpdateJobCommandValidatorTests.cs",
+              "ViewState": "AgIAAOkBAAAAAAAAAAAtwPQBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:49:28.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T15:03:52.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateJobCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateJob\\CreateJobCommandValidator.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\CreateJob\\CreateJobCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateJob\\CreateJobCommandValidator.cs",
+              "RelativeToolTip": "JobSearchApp.Application\\Command\\CreateJob\\CreateJobCommandValidator.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:16:57.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.API\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.API\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.API\\DependencyInjection.cs",
+              "RelativeToolTip": "JobSearchApp.API\\DependencyInjection.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwDMAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T15:49:59.157Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "UpdateJobOfferCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJobOffer\\UpdateJobOfferCommandHandler.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\UpdateJobOffer\\UpdateJobOfferCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJobOffer\\UpdateJobOfferCommandHandler.cs",
-              "RelativeToolTip": "JobSearchApp.Application\\Command\\UpdateJobOffer\\UpdateJobOfferCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "UpdateJobOfferStatusCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJobOfferStatus\\UpdateJobOfferStatusCommandValidator.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\UpdateJobOfferStatus\\UpdateJobOfferStatusCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJobOfferStatus\\UpdateJobOfferStatusCommandValidator.cs",
+              "RelativeToolTip": "JobSearchApp.Application\\Command\\UpdateJobOfferStatus\\UpdateJobOfferStatusCommandValidator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T15:04:32.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T13:19:14.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateJobOfferCommandHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Commands\\UpdateJobOffer\\UpdateJobOfferCommandHandlerTests.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Commands\\UpdateJobOffer\\UpdateJobOfferCommandHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Commands\\UpdateJobOffer\\UpdateJobOfferCommandHandlerTests.cs",
+              "RelativeToolTip": "JobSearchApp.Tests\\Commands\\UpdateJobOffer\\UpdateJobOfferCommandHandlerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:49:28.605Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "SearchJobOfferHandlerTests.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Query\\SearchJobOffer\\SearchJobOfferHandlerTests.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Query\\SearchJobOffer\\SearchJobOfferHandlerTests.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Query\\SearchJobOffer\\SearchJobOfferHandlerTests.cs",
-              "RelativeToolTip": "JobSearchApp.Tests\\Query\\SearchJobOffer\\SearchJobOfferHandlerTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
+              "Title": "UpdateJobOfferCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJobOffer\\UpdateJobOfferCommandHandler.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\UpdateJobOffer\\UpdateJobOfferCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJobOffer\\UpdateJobOfferCommandHandler.cs",
+              "RelativeToolTip": "JobSearchApp.Application\\Command\\UpdateJobOffer\\UpdateJobOfferCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:49:16.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T15:04:32.541Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "CreateJobOfferCommandValidatorTests.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Commands\\CreateJobOffer\\CreateJobOfferCommandValidatorTests.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Commands\\CreateJobOffer\\CreateJobOfferCommandValidatorTests.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Commands\\CreateJobOffer\\CreateJobOfferCommandValidatorTests.cs",
-              "RelativeToolTip": "JobSearchApp.Tests\\Commands\\CreateJobOffer\\CreateJobOfferCommandValidatorTests.cs",
-              "ViewState": "AgIAAL8AAAAAAAAAAAAlwNoAAAB9AAAAAAAAAA==",
+              "Title": "SearchJobOfferHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Query\\SearchJobOffer\\SearchJobOfferHandlerTests.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Query\\SearchJobOffer\\SearchJobOfferHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Query\\SearchJobOffer\\SearchJobOfferHandlerTests.cs",
+              "RelativeToolTip": "JobSearchApp.Tests\\Query\\SearchJobOffer\\SearchJobOfferHandlerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:44:44.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T13:49:16.201Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "SearchJobQueryHandlerTests.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Query\\SearchJob\\SearchJobQueryHandlerTests.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Query\\SearchJob\\SearchJobQueryHandlerTests.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Query\\SearchJob\\SearchJobQueryHandlerTests.cs",
-              "RelativeToolTip": "JobSearchApp.Tests\\Query\\SearchJob\\SearchJobQueryHandlerTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CreateJobOfferCommandValidatorTests.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Commands\\CreateJobOffer\\CreateJobOfferCommandValidatorTests.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Commands\\CreateJobOffer\\CreateJobOfferCommandValidatorTests.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Commands\\CreateJobOffer\\CreateJobOfferCommandValidatorTests.cs",
+              "RelativeToolTip": "JobSearchApp.Tests\\Commands\\CreateJobOffer\\CreateJobOfferCommandValidatorTests.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAlwNoAAAB9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T14:39:22.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T13:44:44.802Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "SearchCustomerQueryHandlerTests.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Query\\SearchCustomer\\SearchCustomerQueryHandlerTests.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Query\\SearchCustomer\\SearchCustomerQueryHandlerTests.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Query\\SearchCustomer\\SearchCustomerQueryHandlerTests.cs",
-              "RelativeToolTip": "JobSearchApp.Tests\\Query\\SearchCustomer\\SearchCustomerQueryHandlerTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Title": "SearchJobQueryHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Query\\SearchJob\\SearchJobQueryHandlerTests.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Query\\SearchJob\\SearchJobQueryHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Query\\SearchJob\\SearchJobQueryHandlerTests.cs",
+              "RelativeToolTip": "JobSearchApp.Tests\\Query\\SearchJob\\SearchJobQueryHandlerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:48:23.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T14:39:22.44Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "SearchContractorQueryHandlerTests.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Query\\SearchContractor\\SearchContractorQueryHandlerTests.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Query\\SearchContractor\\SearchContractorQueryHandlerTests.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Query\\SearchContractor\\SearchContractorQueryHandlerTests.cs",
-              "RelativeToolTip": "JobSearchApp.Tests\\Query\\SearchContractor\\SearchContractorQueryHandlerTests.cs",
-              "ViewState": "AgIAAJoAAAAAAAAAAAAtwKoAAAAbAAAAAAAAAA==",
+              "Title": "SearchCustomerQueryHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Query\\SearchCustomer\\SearchCustomerQueryHandlerTests.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Query\\SearchCustomer\\SearchCustomerQueryHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Query\\SearchCustomer\\SearchCustomerQueryHandlerTests.cs",
+              "RelativeToolTip": "JobSearchApp.Tests\\Query\\SearchCustomer\\SearchCustomerQueryHandlerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:48:06.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T13:48:23.737Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "UpdateJobCommandHandlerTests.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Commands\\UpdateJob\\UpdateJobCommandHandlerTests.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Commands\\UpdateJob\\UpdateJobCommandHandlerTests.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Commands\\UpdateJob\\UpdateJobCommandHandlerTests.cs",
-              "RelativeToolTip": "JobSearchApp.Tests\\Commands\\UpdateJob\\UpdateJobCommandHandlerTests.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAwCIAAAAbAAAAAAAAAA==",
+              "Title": "SearchContractorQueryHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Query\\SearchContractor\\SearchContractorQueryHandlerTests.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Query\\SearchContractor\\SearchContractorQueryHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Query\\SearchContractor\\SearchContractorQueryHandlerTests.cs",
+              "RelativeToolTip": "JobSearchApp.Tests\\Query\\SearchContractor\\SearchContractorQueryHandlerTests.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAtwKoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:47:24.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T13:48:06.077Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "DeleteJobOfferCommandHandlerTests.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Commands\\DeleteJobOffer\\DeleteJobOfferCommandHandlerTests.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Commands\\DeleteJobOffer\\DeleteJobOfferCommandHandlerTests.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Commands\\DeleteJobOffer\\DeleteJobOfferCommandHandlerTests.cs",
-              "RelativeToolTip": "JobSearchApp.Tests\\Commands\\DeleteJobOffer\\DeleteJobOfferCommandHandlerTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKYAAAABAAAAAAAAAA==",
+              "Title": "UpdateJobCommandHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Commands\\UpdateJob\\UpdateJobCommandHandlerTests.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Commands\\UpdateJob\\UpdateJobCommandHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Commands\\UpdateJob\\UpdateJobCommandHandlerTests.cs",
+              "RelativeToolTip": "JobSearchApp.Tests\\Commands\\UpdateJob\\UpdateJobCommandHandlerTests.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwCIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:40:38.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T13:47:24.831Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "CreateJobOfferCommandHandlerTests.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Commands\\CreateJobOffer\\CreateJobOfferCommandHandlerTests.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Commands\\CreateJobOffer\\CreateJobOfferCommandHandlerTests.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Commands\\CreateJobOffer\\CreateJobOfferCommandHandlerTests.cs",
-              "RelativeToolTip": "JobSearchApp.Tests\\Commands\\CreateJobOffer\\CreateJobOfferCommandHandlerTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOsBAAABAAAAAAAAAA==",
+              "Title": "DeleteJobOfferCommandHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Commands\\DeleteJobOffer\\DeleteJobOfferCommandHandlerTests.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Commands\\DeleteJobOffer\\DeleteJobOfferCommandHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Commands\\DeleteJobOffer\\DeleteJobOfferCommandHandlerTests.cs",
+              "RelativeToolTip": "JobSearchApp.Tests\\Commands\\DeleteJobOffer\\DeleteJobOfferCommandHandlerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:44:22.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T13:40:38.403Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "DeleteJobCommandHandlerTests.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Commands\\DeleteJob\\DeleteJobCommandHandlerTests.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Commands\\DeleteJob\\DeleteJobCommandHandlerTests.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Commands\\DeleteJob\\DeleteJobCommandHandlerTests.cs",
-              "RelativeToolTip": "JobSearchApp.Tests\\Commands\\DeleteJob\\DeleteJobCommandHandlerTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKYAAAABAAAAAAAAAA==",
+              "Title": "CreateJobOfferCommandHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Commands\\CreateJobOffer\\CreateJobOfferCommandHandlerTests.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Commands\\CreateJobOffer\\CreateJobOfferCommandHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Commands\\CreateJobOffer\\CreateJobOfferCommandHandlerTests.cs",
+              "RelativeToolTip": "JobSearchApp.Tests\\Commands\\CreateJobOffer\\CreateJobOfferCommandHandlerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOsBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:33:31.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T13:44:22.433Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "IJobRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Domain\\Interfaces\\Repository\\IJobRepository.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Domain\\Interfaces\\Repository\\IJobRepository.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Domain\\Interfaces\\Repository\\IJobRepository.cs",
-              "RelativeToolTip": "JobSearchApp.Domain\\Interfaces\\Repository\\IJobRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAABcAAAAAAAAAA==",
+              "Title": "DeleteJobCommandHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Commands\\DeleteJob\\DeleteJobCommandHandlerTests.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Commands\\DeleteJob\\DeleteJobCommandHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Commands\\DeleteJob\\DeleteJobCommandHandlerTests.cs",
+              "RelativeToolTip": "JobSearchApp.Tests\\Commands\\DeleteJob\\DeleteJobCommandHandlerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T15:11:52.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T13:33:31.131Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "JobRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Infrastructure\\Repositories\\JobRepository.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Infrastructure\\Repositories\\JobRepository.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Infrastructure\\Repositories\\JobRepository.cs",
-              "RelativeToolTip": "JobSearchApp.Infrastructure\\Repositories\\JobRepository.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAwDAAAAA0AAAAAAAAAA==",
+              "Title": "IJobRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Domain\\Interfaces\\Repository\\IJobRepository.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Domain\\Interfaces\\Repository\\IJobRepository.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Domain\\Interfaces\\Repository\\IJobRepository.cs",
+              "RelativeToolTip": "JobSearchApp.Domain\\Interfaces\\Repository\\IJobRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T15:00:30.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "JobOfferController.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.API\\Controllers\\JobOfferController.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.API\\Controllers\\JobOfferController.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.API\\Controllers\\JobOfferController.cs",
-              "RelativeToolTip": "JobSearchApp.API\\Controllers\\JobOfferController.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAAwGwAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T13:22:34.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "UpdateJobOfferStatusCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJobOfferStatus\\UpdateJobOfferStatusCommand.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\UpdateJobOfferStatus\\UpdateJobOfferStatusCommand.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJobOfferStatus\\UpdateJobOfferStatusCommand.cs",
-              "RelativeToolTip": "JobSearchApp.Application\\Command\\UpdateJobOfferStatus\\UpdateJobOfferStatusCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T14:23:01.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "SetJobOfferStatus.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Domain\\DTO\\JobOffer\\SetJobOfferStatus.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Domain\\DTO\\JobOffer\\SetJobOfferStatus.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Domain\\DTO\\JobOffer\\SetJobOfferStatus.cs",
-              "RelativeToolTip": "JobSearchApp.Domain\\DTO\\JobOffer\\SetJobOfferStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T14:29:50.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T15:11:52.965Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "UpdateJobOfferStatusCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJobOfferStatus\\UpdateJobOfferStatusCommandHandler.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\UpdateJobOfferStatus\\UpdateJobOfferStatusCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJobOfferStatus\\UpdateJobOfferStatusCommandHandler.cs",
-              "RelativeToolTip": "JobSearchApp.Application\\Command\\UpdateJobOfferStatus\\UpdateJobOfferStatusCommandHandler.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAuwCUAAABKAAAAAAAAAA==",
+              "Title": "JobRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Infrastructure\\Repositories\\JobRepository.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Infrastructure\\Repositories\\JobRepository.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Infrastructure\\Repositories\\JobRepository.cs",
+              "RelativeToolTip": "JobSearchApp.Infrastructure\\Repositories\\JobRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwDAAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T14:36:02.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T15:00:30.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "JobOfferController.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.API\\Controllers\\JobOfferController.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.API\\Controllers\\JobOfferController.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.API\\Controllers\\JobOfferController.cs",
+              "RelativeToolTip": "JobSearchApp.API\\Controllers\\JobOfferController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAwGwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T13:22:34.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UpdateJobOfferStatusCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJobOfferStatus\\UpdateJobOfferStatusCommand.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\UpdateJobOfferStatus\\UpdateJobOfferStatusCommand.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJobOfferStatus\\UpdateJobOfferStatusCommand.cs",
+              "RelativeToolTip": "JobSearchApp.Application\\Command\\UpdateJobOfferStatus\\UpdateJobOfferStatusCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T14:23:01.532Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "JobController.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.API\\Controllers\\JobController.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.API\\Controllers\\JobController.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.API\\Controllers\\JobController.cs",
-              "RelativeToolTip": "JobSearchApp.API\\Controllers\\JobController.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAcwGwAAAAwAAAAAAAAAA==",
+              "Title": "SetJobOfferStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Domain\\DTO\\JobOffer\\SetJobOfferStatus.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Domain\\DTO\\JobOffer\\SetJobOfferStatus.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Domain\\DTO\\JobOffer\\SetJobOfferStatus.cs",
+              "RelativeToolTip": "JobSearchApp.Domain\\DTO\\JobOffer\\SetJobOfferStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T13:33:38.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T14:29:50.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UpdateJobOfferStatusCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJobOfferStatus\\UpdateJobOfferStatusCommandHandler.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\UpdateJobOfferStatus\\UpdateJobOfferStatusCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJobOfferStatus\\UpdateJobOfferStatusCommandHandler.cs",
+              "RelativeToolTip": "JobSearchApp.Application\\Command\\UpdateJobOfferStatus\\UpdateJobOfferStatusCommandHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwCUAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T14:36:02.264Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.API\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.API\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.API\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "JobSearchApp.API\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAIwEkAAAAAAAAAAAAAAA==",
+              "Title": "JobController.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.API\\Controllers\\JobController.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.API\\Controllers\\JobController.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.API\\Controllers\\JobController.cs",
+              "RelativeToolTip": "JobSearchApp.API\\Controllers\\JobController.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAcwGwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T12:49:10.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T13:33:38.457Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "DeleteJobCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\DeleteJob\\DeleteJobCommandHandler.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\DeleteJob\\DeleteJobCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\DeleteJob\\DeleteJobCommandHandler.cs",
-              "RelativeToolTip": "JobSearchApp.Application\\Command\\DeleteJob\\DeleteJobCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.API\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.API\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.API\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "JobSearchApp.API\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:25:11.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T12:49:10.43Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "DeleteJobOfferCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\DeleteJobOffer\\DeleteJobOfferCommandHandler.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\DeleteJobOffer\\DeleteJobOfferCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\DeleteJobOffer\\DeleteJobOfferCommandHandler.cs",
-              "RelativeToolTip": "JobSearchApp.Application\\Command\\DeleteJobOffer\\DeleteJobOfferCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABJAAAAAAAAAA==",
+              "Title": "DeleteJobCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\DeleteJob\\DeleteJobCommandHandler.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\DeleteJob\\DeleteJobCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\DeleteJob\\DeleteJobCommandHandler.cs",
+              "RelativeToolTip": "JobSearchApp.Application\\Command\\DeleteJob\\DeleteJobCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T14:31:51.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T13:25:11.877Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "UpdateJobCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJob\\UpdateJobCommand.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\UpdateJob\\UpdateJobCommand.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJob\\UpdateJobCommand.cs",
-              "RelativeToolTip": "JobSearchApp.Application\\Command\\UpdateJob\\UpdateJobCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "DeleteJobOfferCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\DeleteJobOffer\\DeleteJobOfferCommandHandler.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\DeleteJobOffer\\DeleteJobOfferCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\DeleteJobOffer\\DeleteJobOfferCommandHandler.cs",
+              "RelativeToolTip": "JobSearchApp.Application\\Command\\DeleteJobOffer\\DeleteJobOfferCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:19:21.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T14:31:51.01Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
-              "Title": "UpdateJobCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJob\\UpdateJobCommandHandler.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\UpdateJob\\UpdateJobCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJob\\UpdateJobCommandHandler.cs",
-              "RelativeToolTip": "JobSearchApp.Application\\Command\\UpdateJob\\UpdateJobCommandHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAPAAAAAAAAAA==",
+              "Title": "UpdateJobCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJob\\UpdateJobCommand.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\UpdateJob\\UpdateJobCommand.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJob\\UpdateJobCommand.cs",
+              "RelativeToolTip": "JobSearchApp.Application\\Command\\UpdateJob\\UpdateJobCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T13:33:38.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T13:19:21.781Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
-              "Title": "CreateJobOfferCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateJobOffer\\CreateJobOfferCommandHandler.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\CreateJobOffer\\CreateJobOfferCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateJobOffer\\CreateJobOfferCommandHandler.cs",
-              "RelativeToolTip": "JobSearchApp.Application\\Command\\CreateJobOffer\\CreateJobOfferCommandHandler.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAqwDEAAAAOAAAAAAAAAA==",
+              "Title": "UpdateJobCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJob\\UpdateJobCommandHandler.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\UpdateJob\\UpdateJobCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\UpdateJob\\UpdateJobCommandHandler.cs",
+              "RelativeToolTip": "JobSearchApp.Application\\Command\\UpdateJob\\UpdateJobCommandHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T13:20:33.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T13:33:38.497Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 34,
-              "Title": "CreateJobCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateJob\\CreateJobCommandHandler.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\CreateJob\\CreateJobCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateJob\\CreateJobCommandHandler.cs",
-              "RelativeToolTip": "JobSearchApp.Application\\Command\\CreateJob\\CreateJobCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CreateJobOfferCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateJobOffer\\CreateJobOfferCommandHandler.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\CreateJobOffer\\CreateJobOfferCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateJobOffer\\CreateJobOfferCommandHandler.cs",
+              "RelativeToolTip": "JobSearchApp.Application\\Command\\CreateJobOffer\\CreateJobOfferCommandHandler.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwDEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:16:58.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T13:20:33.834Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 35,
-              "Title": "CreateCustomerCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateCustomer\\CreateCustomerCommandValidator.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\CreateCustomer\\CreateCustomerCommandValidator.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateCustomer\\CreateCustomerCommandValidator.cs",
-              "RelativeToolTip": "JobSearchApp.Application\\Command\\CreateCustomer\\CreateCustomerCommandValidator.cs",
+              "Title": "CreateJobCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateJob\\CreateJobCommandHandler.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\CreateJob\\CreateJobCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateJob\\CreateJobCommandHandler.cs",
+              "RelativeToolTip": "JobSearchApp.Application\\Command\\CreateJob\\CreateJobCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:16:56.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T13:16:58.241Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 36,
-              "Title": "CreateCustomerCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateCustomer\\CreateCustomerCommandHandler.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\CreateCustomer\\CreateCustomerCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateCustomer\\CreateCustomerCommandHandler.cs",
-              "RelativeToolTip": "JobSearchApp.Application\\Command\\CreateCustomer\\CreateCustomerCommandHandler.cs",
+              "Title": "CreateCustomerCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateCustomer\\CreateCustomerCommandValidator.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\CreateCustomer\\CreateCustomerCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateCustomer\\CreateCustomerCommandValidator.cs",
+              "RelativeToolTip": "JobSearchApp.Application\\Command\\CreateCustomer\\CreateCustomerCommandValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:16:55.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T13:16:56.181Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 37,
-              "Title": "CreateContractorCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateContractor\\CreateContractorCommandHandler.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\CreateContractor\\CreateContractorCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateContractor\\CreateContractorCommandHandler.cs",
-              "RelativeToolTip": "JobSearchApp.Application\\Command\\CreateContractor\\CreateContractorCommandHandler.cs",
+              "Title": "CreateCustomerCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateCustomer\\CreateCustomerCommandHandler.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\CreateCustomer\\CreateCustomerCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateCustomer\\CreateCustomerCommandHandler.cs",
+              "RelativeToolTip": "JobSearchApp.Application\\Command\\CreateCustomer\\CreateCustomerCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:16:51.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T13:16:55.253Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 38,
-              "Title": "CreateContractorCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateContractor\\CreateContractorCommandValidator.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\CreateContractor\\CreateContractorCommandValidator.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateContractor\\CreateContractorCommandValidator.cs",
-              "RelativeToolTip": "JobSearchApp.Application\\Command\\CreateContractor\\CreateContractorCommandValidator.cs",
+              "Title": "CreateContractorCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateContractor\\CreateContractorCommandHandler.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\CreateContractor\\CreateContractorCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateContractor\\CreateContractorCommandHandler.cs",
+              "RelativeToolTip": "JobSearchApp.Application\\Command\\CreateContractor\\CreateContractorCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:16:50.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T13:16:51.804Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 39,
-              "Title": "xunit.v3.core.mtp-v1.targets",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\.nuget\\packages\\xunit.v3.core.mtp-v1\\3.2.2\\buildTransitive\\xunit.v3.core.mtp-v1.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\xunit.v3.core.mtp-v1\\3.2.2\\buildTransitive\\xunit.v3.core.mtp-v1.targets",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\.nuget\\packages\\xunit.v3.core.mtp-v1\\3.2.2\\buildTransitive\\xunit.v3.core.mtp-v1.targets",
-              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\xunit.v3.core.mtp-v1\\3.2.2\\buildTransitive\\xunit.v3.core.mtp-v1.targets",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-03-23T13:11:15.239Z",
-              "EditorCaption": ""
+              "Title": "CreateContractorCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateContractor\\CreateContractorCommandValidator.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\CreateContractor\\CreateContractorCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateContractor\\CreateContractorCommandValidator.cs",
+              "RelativeToolTip": "JobSearchApp.Application\\Command\\CreateContractor\\CreateContractorCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:16:50.869Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 40,
-              "Title": "CreateJobCommandHandlerTests.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Commands\\CreateJob\\CreateJobCommandHandlerTests.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Commands\\CreateJob\\CreateJobCommandHandlerTests.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Tests\\Commands\\CreateJob\\CreateJobCommandHandlerTests.cs",
-              "RelativeToolTip": "JobSearchApp.Tests\\Commands\\CreateJob\\CreateJobCommandHandlerTests.cs",
-              "ViewState": "AgIAAO0AAAAAAAAAAAAgwA4BAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T12:55:33.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "ApplicationDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Infrastructure\\ApplicationDBContext.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Infrastructure\\ApplicationDBContext.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Infrastructure\\ApplicationDBContext.cs",
-              "RelativeToolTip": "JobSearchApp.Infrastructure\\ApplicationDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T12:54:39.77Z",
-              "EditorCaption": ""
+              "Title": "xunit.v3.core.mtp-v1.targets",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\.nuget\\packages\\xunit.v3.core.mtp-v1\\3.2.2\\buildTransitive\\xunit.v3.core.mtp-v1.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\.nuget\\packages\\xunit.v3.core.mtp-v1\\3.2.2\\buildTransitive\\xunit.v3.core.mtp-v1.targets",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\.nuget\\packages\\xunit.v3.core.mtp-v1\\3.2.2\\buildTransitive\\xunit.v3.core.mtp-v1.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\.nuget\\packages\\xunit.v3.core.mtp-v1\\3.2.2\\buildTransitive\\xunit.v3.core.mtp-v1.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-03-23T13:11:15.239Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 41,
-              "Title": "ContractorController.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.API\\Controllers\\ContractorController.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.API\\Controllers\\ContractorController.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.API\\Controllers\\ContractorController.cs",
-              "RelativeToolTip": "JobSearchApp.API\\Controllers\\ContractorController.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAcwE8AAAAJAAAAAAAAAA==",
+              "Title": "CreateJobCommandHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Commands\\CreateJob\\CreateJobCommandHandlerTests.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Tests\\Commands\\CreateJob\\CreateJobCommandHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Tests\\Commands\\CreateJob\\CreateJobCommandHandlerTests.cs",
+              "RelativeToolTip": "JobSearchApp.Tests\\Commands\\CreateJob\\CreateJobCommandHandlerTests.cs",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAgwA4BAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T12:49:10.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "JobOfferStatus.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Domain\\Enums\\JobOfferStatus.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Domain\\Enums\\JobOfferStatus.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Domain\\Enums\\JobOfferStatus.cs",
-              "RelativeToolTip": "JobSearchApp.Domain\\Enums\\JobOfferStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T12:50:49.011Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "IJobOfferRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Domain\\Interfaces\\Repository\\IJobOfferRepository.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Domain\\Interfaces\\Repository\\IJobOfferRepository.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Domain\\Interfaces\\Repository\\IJobOfferRepository.cs",
-              "RelativeToolTip": "JobSearchApp.Domain\\Interfaces\\Repository\\IJobOfferRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T15:36:44.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Infrastructure\\Repositories\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Infrastructure\\Repositories\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Infrastructure\\Repositories\\UnitOfWork.cs",
-              "RelativeToolTip": "JobSearchApp.Infrastructure\\Repositories\\UnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T15:10:07.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T12:55:33.675Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 44,
-              "Title": "SearchJobOfferQuery.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Query\\SearchJobOffer\\SearchJobOfferQuery.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Application\\Query\\SearchJobOffer\\SearchJobOfferQuery.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Query\\SearchJobOffer\\SearchJobOfferQuery.cs",
-              "RelativeToolTip": "JobSearchApp.Application\\Query\\SearchJobOffer\\SearchJobOfferQuery.cs",
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Infrastructure\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Infrastructure\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Infrastructure\\ApplicationDBContext.cs",
+              "RelativeToolTip": "JobSearchApp.Infrastructure\\ApplicationDBContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T13:29:05.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T12:54:39.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ContractorController.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.API\\Controllers\\ContractorController.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.API\\Controllers\\ContractorController.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.API\\Controllers\\ContractorController.cs",
+              "RelativeToolTip": "JobSearchApp.API\\Controllers\\ContractorController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAcwE8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T12:49:10.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "JobOfferStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Domain\\Enums\\JobOfferStatus.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Domain\\Enums\\JobOfferStatus.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Domain\\Enums\\JobOfferStatus.cs",
+              "RelativeToolTip": "JobSearchApp.Domain\\Enums\\JobOfferStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T12:50:49.011Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 47,
-              "Title": "CreateJobOfferCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateJobOffer\\CreateJobOfferCommand.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\CreateJobOffer\\CreateJobOfferCommand.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateJobOffer\\CreateJobOfferCommand.cs",
-              "RelativeToolTip": "JobSearchApp.Application\\Command\\CreateJobOffer\\CreateJobOfferCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAPAAAAAAAAAA==",
+              "Title": "IJobOfferRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Domain\\Interfaces\\Repository\\IJobOfferRepository.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Domain\\Interfaces\\Repository\\IJobOfferRepository.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Domain\\Interfaces\\Repository\\IJobOfferRepository.cs",
+              "RelativeToolTip": "JobSearchApp.Domain\\Interfaces\\Repository\\IJobOfferRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T13:20:32.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T15:36:44.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "JobSearchApp.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T15:10:07.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "SearchJobOfferQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Query\\SearchJobOffer\\SearchJobOfferQuery.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Application\\Query\\SearchJobOffer\\SearchJobOfferQuery.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Query\\SearchJobOffer\\SearchJobOfferQuery.cs",
+              "RelativeToolTip": "JobSearchApp.Application\\Query\\SearchJobOffer\\SearchJobOfferQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T13:29:05.657Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 48,
-              "Title": "SearchJobQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Query\\SearchJob\\SearchJobQueryHandler.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Application\\Query\\SearchJob\\SearchJobQueryHandler.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Query\\SearchJob\\SearchJobQueryHandler.cs",
-              "RelativeToolTip": "JobSearchApp.Application\\Query\\SearchJob\\SearchJobQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA9AAAAAAAAAA==",
+              "Title": "CreateJobOfferCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateJobOffer\\CreateJobOfferCommand.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Application\\Command\\CreateJobOffer\\CreateJobOfferCommand.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Command\\CreateJobOffer\\CreateJobOfferCommand.cs",
+              "RelativeToolTip": "JobSearchApp.Application\\Command\\CreateJobOffer\\CreateJobOfferCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T15:36:20.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T13:20:32.56Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 49,
-              "Title": "SearchJobOfferQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Query\\SearchJobOffer\\SearchJobOfferQueryHandler.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Application\\Query\\SearchJobOffer\\SearchJobOfferQueryHandler.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Application\\Query\\SearchJobOffer\\SearchJobOfferQueryHandler.cs",
-              "RelativeToolTip": "JobSearchApp.Application\\Query\\SearchJobOffer\\SearchJobOfferQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Title": "SearchJobQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Query\\SearchJob\\SearchJobQueryHandler.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Application\\Query\\SearchJob\\SearchJobQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Query\\SearchJob\\SearchJobQueryHandler.cs",
+              "RelativeToolTip": "JobSearchApp.Application\\Query\\SearchJob\\SearchJobQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T13:28:37.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T15:36:20.51Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 50,
-              "Title": "JobService.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Domain\\Services\\JobService.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Domain\\Services\\JobService.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Domain\\Services\\JobService.cs",
-              "RelativeToolTip": "JobSearchApp.Domain\\Services\\JobService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAlwCgAAAAAAAAAAAAAAA==",
+              "Title": "SearchJobOfferQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Query\\SearchJobOffer\\SearchJobOfferQueryHandler.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Application\\Query\\SearchJobOffer\\SearchJobOfferQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Application\\Query\\SearchJobOffer\\SearchJobOfferQueryHandler.cs",
+              "RelativeToolTip": "JobSearchApp.Application\\Query\\SearchJobOffer\\SearchJobOfferQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T15:01:13.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T13:28:37.065Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 51,
-              "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Infrastructure\\Repositories\\RepositoryBase.cs",
-              "RelativeDocumentMoniker": "JobSearchApp.Infrastructure\\Repositories\\RepositoryBase.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Infrastructure\\Repositories\\RepositoryBase.cs",
-              "RelativeToolTip": "JobSearchApp.Infrastructure\\Repositories\\RepositoryBase.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAwwC8AAAA4AAAAAAAAAA==",
+              "Title": "JobService.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Domain\\Services\\JobService.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Domain\\Services\\JobService.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Domain\\Services\\JobService.cs",
+              "RelativeToolTip": "JobSearchApp.Domain\\Services\\JobService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAlwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T15:10:08.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T15:01:13.118Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 52,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Infrastructure\\Repositories\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "JobSearchApp.Infrastructure\\Repositories\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Infrastructure\\Repositories\\RepositoryBase.cs",
+              "RelativeToolTip": "JobSearchApp.Infrastructure\\Repositories\\RepositoryBase.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwC8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T15:10:08.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
               "Title": "JobOfferData.cs",
-              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Domain\\DTO\\JobOffer\\JobOfferData.cs",
+              "DocumentMoniker": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Domain\\DTO\\JobOffer\\JobOfferData.cs",
               "RelativeDocumentMoniker": "JobSearchApp.Domain\\DTO\\JobOffer\\JobOfferData.cs",
-              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.Domain\\DTO\\JobOffer\\JobOfferData.cs",
+              "ToolTip": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.Domain\\DTO\\JobOffer\\JobOfferData.cs",
               "RelativeToolTip": "JobSearchApp.Domain\\DTO\\JobOffer\\JobOfferData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T13:40:49.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T13:40:49.221Z"
             }
           ]
         }

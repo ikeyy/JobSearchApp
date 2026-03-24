@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "szH0UlNFM5A=",
+  "dgSpecHash": "uG3blP3r2TM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ed Kristian Capiral\\source\\repos\\JobSearchApp\\JobSearchApp.API\\JobSearchApp.API.csproj",
+  "projectFilePath": "C:\\Users\\Ed Kristian Capiral\\Documents\\GitHub\\JobSearchApp\\JobSearchApp\\JobSearchApp.API\\JobSearchApp.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ed Kristian Capiral\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Ed Kristian Capiral\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
