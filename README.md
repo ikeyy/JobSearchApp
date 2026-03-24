@@ -1,53 +1,96 @@
-# Job Search App
+# 🔍 Job Search App
 
-## Prerequisites
+A full-stack job search application built with **Angular** (Frontend) and **.NET Core** (Backend), backed by a **SQL Server** database.
 
-1. **Download Node.js** via the official link: [https://nodejs.org/](https://nodejs.org/)
+---
 
-2. **Install Angular CLI** through the Visual Studio Code Terminal by running:
-   ```bash
-   npm install -g @angular/cli
-   ```
+## 📋 Prerequisites
 
-3. **Import the SQL Database** — Import the `JobSearchDB.bacpac` file into your SQL database.
+Before running the application, ensure the following steps are completed:
 
-4. **Import Postman Collection** — Import `JobSearchApp.postman_collection.json` into Postman.
+| # | Step | Details |
+|---|------|---------|
+| 1 | **Node.js** | Download and install from [https://nodejs.org/](https://nodejs.org/) |
+| 2 | **Angular CLI** | Install via terminal (see below) |
+| 3 | **SQL Database** | Import `JobSearchDB.bacpac` into SQL Server |
+| 4 | **Postman Collection** | Import `JobSearchApp.postman_collection.json` into Postman |
+| 5 | **Angular API URL** | Update `ApiURL` in `environment.development.ts` |
+| 6 | **.NET Allowed Origins** | Update `AllowedOrigins` in `appSettings.development.json` |
+| 7 | **SQL Server Name** | Align `ServerName` in `appSettings.development.json` |
 
-5. **Configure Angular API URL** — Under the Angular app, update the `ApiURL` value in `environment.development.ts` to match the localhost value of the .NET Core app.
+### Install Angular CLI
 
-6. **Configure .NET Allowed Origins** — Under the .NET app, update the `AllowedOrigins` value in `appSettings.development.json` to match the localhost value of the Angular app.
+Open the **Visual Studio Code** terminal and run:
 
-7. **Align SQL Server Name** — Update the `ServerName` in `appSettings.development.json` to match the current machine's SQL credentials.
+```bash
+npm install -g @angular/cli
+```
+
+### Configure Environment Variables
+
+**Angular** — In `environment.development.ts`, set `ApiURL` to match the localhost port of the .NET Core app:
+```ts
+export const environment = {
+  ApiURL: '{your-dotnetApp-localhostURL}/api'
+};
+```
+
+**.NET Core** — In `appSettings.development.json`, set `AllowedOrigins` to match the localhost port of the Angular app, and align `ServerName` with your machine's SQL credentials:
+```json
+{
+  "AllowedOrigins": "{your-angularApp-localhosturl}",
+  "ConnectionStrings": {
+    "DefaultConnection": "Server={your-server-name};Database=JobSearchDB;..."
+  }
+}
+```
 
 ---
 
 > ⚠️ **Important Note**
 >
-> For the **Customer** and **Contractor** API, the **update** and **delete** functionalities are pending for future development but are present in the UI.
+> For the **Customer** and **Contractor** APIs, the **Update** and **Delete** functionalities are currently **pending for future development**, but the corresponding UI elements are already present in the application.
 
 ---
 
-## How to Run the App
+## 🚀 How to Run the App
 
-### Backend
+### 🖥️ Backend (.NET Core)
 
-1. Open the .NET Core solution via **Visual Studio**.
-2. Run the application.
+1. Open the `.NET Core` solution file (`.sln`) in **Visual Studio**.
+2. Ensure the correct startup project is selected.
+3. Press **F5** or click **Run** to start the application.
+4. Note the localhost port displayed — you will need this for the Angular configuration.
 
-### Frontend
+### 🌐 Frontend (Angular)
 
-1. Open a terminal in the Angular project folder via **Visual Studio Code**.
-2. Execute:
+1. Open the Angular project folder in **Visual Studio Code**.
+2. Launch the integrated terminal and run:
    ```bash
    ng serve
    ```
-3. Open your browser to the localhost link provided in the terminal.
+3. Once compiled, open your browser and navigate to the localhost link shown in the terminal (e.g., `http://localhost:4200`).
 
 ---
 
-## Future Improvements
+## 🛣️ Future Improvements
 
-- Addition of Rate Limiting
-- Implementation of Authentication for API calls
-- Addition of Index to database tables
-- Addition of Caching
+The following enhancements are planned for upcoming development cycles:
+
+| Feature | Description |
+|---------|-------------|
+| 🚦 **Rate Limiting** | Prevent API abuse by throttling excessive requests |
+| 🔐 **Authentication** | Secure API calls with token-based authentication |
+| 🗂️ **Database Indexing** | Improve query performance by adding indexes to key tables |
+| ⚡ **Caching** | Reduce load and improve response times with a caching layer |
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| Frontend | Angular |
+| Backend | .NET Core |
+| Database | SQL Server |
+| API Testing | Postman / Swagger |
