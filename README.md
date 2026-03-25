@@ -73,7 +73,7 @@ export const environment = {
 
 ---
 
-## 🛣️ Future Improvements
+## 🛣️ Possible Improvements
 
 The following enhancements could be done to improve the app:
 
